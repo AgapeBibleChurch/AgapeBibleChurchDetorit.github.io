@@ -9,8 +9,8 @@
 
 <channel>
 	<title>agapebiblechurchdetroit.com</title>
-	<atom:link href="https://www.agapebiblechurchdetroit.com/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.agapebiblechurchdetroit.com</link>
+	<atom:link href="http://www.agapebiblechurchdetroit.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.agapebiblechurchdetroit.com</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 19 May 2018 02:09:07 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,9 +19,9 @@
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 
 <image>
-	<url>https://www.agapebiblechurchdetroit.com/wp-content/uploads/2018/05/cropped-Agape-Church-LOGO-Web-symbol-e1526586289119-32x32.png</url>
+	<url>http://www.agapebiblechurchdetroit.com/wp-content/uploads/2018/05/cropped-Agape-Church-LOGO-Web-symbol-e1526586289119-32x32.png</url>
 	<title>agapebiblechurchdetroit.com</title>
-	<link>https://www.agapebiblechurchdetroit.com</link>
+	<link>http://www.agapebiblechurchdetroit.com</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
