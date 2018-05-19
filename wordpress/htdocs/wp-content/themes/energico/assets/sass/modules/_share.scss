@@ -1,0 +1,29 @@
+.share-btns {
+	&__list {
+		.hentry & {
+			line-height: 1;
+		}
+		.single-post & {
+			float: none;
+			margin-top: 10px;
+			@include media-breakpoint-up(sm){
+				float: right;
+				margin-top: 0;
+			}
+		}
+	}
+	&__item {
+		display: inline-block;
+		vertical-align: top;
+		& + *{
+			margin-left: 12px;
+		}
+	}
+	&__link {
+		line-height: 1em;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		@include font-size(0.875);
+	}
+}

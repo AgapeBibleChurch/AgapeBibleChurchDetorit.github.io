@@ -1,0 +1,24 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_blurb {
+	color: $regular_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_blurb .tm-pb-icon {
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_blurb h4 {
+	color: $regular_link_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_module.tm_pb_blurb h4 a:hover {
+	color: $regular_accent_color_2 !important;
+}
+
+.blurb_counter h4::before{
+	color: @alpha($invert_accent_color_1, 30%);
+	border-color: @alpha($invert_accent_color_1, 30%);
+}
+
+#tm_builder_outer_content .blurb_counter .tm_pb_blurb.tm_pb_module .tm_pb_blurb_content{
+	color: $invert_text_color;
+}

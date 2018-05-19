@@ -1,0 +1,56 @@
+#tm_builder_outer_content {
+	.tm_pb_column_4_4 {
+		.tm_pb_audio_module.tm_pb_module .tm_pb_audio_cover_art {
+			@include media-breakpoint-up(md) {
+				height: calc(100% - 50px);
+				top: 25px;
+				left: 25px;
+				width: 165px;
+			}
+		}
+	}
+	.tm_pb_column_1_2 {
+		.tm_pb_audio_module.tm_pb_module {
+			.tm_pb_audio_cover_art {
+				position: relative;
+				width: auto;
+				height: 285px;
+				top: auto;
+				left: auto;
+			}
+			.tm_pb_audio_module_content{
+				margin-left: 0;
+			}
+		}
+	}
+	.tm_pb_audio_module.tm_pb_module {
+		.tm_audio_container {
+			padding-top: 90px;
+			padding-bottom: 34px;
+			.tm_audio_module_meta {
+				font-weight: 300;
+				strong {
+					font-weight: 300;
+				}
+			}
+			.mejs-volume-button {
+				button {
+					overflow: visible;
+				}
+			}
+			span.mejs-currenttime {
+				@include font-size(1.0625);
+			}
+		}
+		@include media-breakpoint-down(md) {
+			.tm_pb_audio_cover_art {
+				position: relative;
+				width: auto;
+				padding-bottom: 60%;
+			}
+			.tm_pb_audio_module_content {
+				margin-left: 0;
+			}
+		}
+	}
+}

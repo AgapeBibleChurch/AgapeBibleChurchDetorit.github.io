@@ -1,0 +1,110 @@
+#tm_builder_outer_content {
+	.tm_pb_column_4_4{
+		.tm_pb_pricing.tm_pb_module .tm_pb_pricing_table{
+			width:100%;
+			@include media-breakpoint-up(md){
+				width:33.333%;
+			}
+			@include media-breakpoint-up(xl){
+				width:calc(33.333% - 20px);
+			}
+			& + .tm_pb_pricing_table{
+				margin-left: 0;
+				@include media-breakpoint-up(xl){
+					margin-left: 31px;
+				}
+			}
+		}
+	}
+	.tm_pb_pricing.tm_pb_module {
+		.tm_pb_pricing_table {
+			padding-top: 23px;
+			padding-bottom: 40px;
+			margin-top: 0;
+			@include media-breakpoint-up(md){
+				margin-top: 35px;
+			}
+			&.tm_pb_featured_table {
+				margin-top: 0;
+				padding-bottom: 45px;
+				.tm_pb_pricing_title {
+					@include font-size(1.75);
+				}
+				.tm_pb_tm_price > span {
+					@include font-size(2.125);
+				}
+				div.tm_pb_pricing_content_top {
+					padding-bottom: 30px;
+				}
+				.tm_pb_pricing_table_button {
+					margin-top: 40px;
+					background: transparent;
+				}
+			}
+		}
+		div.tm_pb_pricing {
+			&_heading {
+				margin-bottom: 4px;
+				text-transform: uppercase;
+				.tm_pb_best_value {
+					text-transform: none;
+				}
+			}
+			&_content {
+				padding: 0 15px 17px;
+				text-align: center;
+				@include media-breakpoint-up(xl){
+					padding: 0 40px 17px;
+				}
+				.tm_pb_pricing {
+					li {
+						line-height: 1.35;
+						padding: 0 10px;
+						&::before {
+							display: none;
+						}
+					}
+				}
+				&_top {
+					padding-bottom: 27px;
+					.tm_pb_tm_price > span {
+						@include font-size(1.75);
+						font-weight: 700;
+					}
+					.tm_pb_frequency {
+						margin-left: 5px;
+					}
+					.tm_pb_dollar_sign {
+						margin-left: 0;
+						position: relative;
+					}
+				}
+			}
+		}
+
+		.tm_pb_button {
+			@include font-size(0.75);
+			text-transform: uppercase;
+			padding: 14px 50px;
+			border-radius: 30px;
+			margin-top: 15px;
+			@include media-breakpoint-up(md){
+				padding: 14px 15px;
+			}
+			@include media-breakpoint-up(xl){
+				padding: 14px 50px;
+			}
+			&:hover {
+				body & {
+					padding: 14px 50px;
+					@include media-breakpoint-up(md){
+						padding: 14px 15px;
+					}
+					@include media-breakpoint-up(xl){
+						padding: 14px 50px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,162 @@
+.post {
+	/* Gallery */
+	&-gallery {
+		body & {
+			margin: -30px -30px 1.5em -30px;
+		}
+		.entry-content & {
+			margin-top: 10px;
+		}
+		&__image {
+			display: block;
+			margin: auto;
+			width: 100%;
+		}
+		&__button-next,
+		&__button-prev {
+			body & {
+				top: 50%;
+				display: none;
+				width: 48px;
+				height: 48px;
+				text-align: center;
+				margin-top: -24px;
+				@include transition(.3s ease all);
+				border-radius: 50%;
+				background-image: none;
+			}
+		}
+		&__button-prev {
+			left: 8px;
+		}
+		&__button-next {
+			right: 8px;
+		}
+
+		.material-icons,
+		.fa {
+			line-height: 48px;
+		}
+		&__slide {
+			&.swiper-slide:hover {
+				&:hover {
+					background-color: transparent;
+				}
+			}
+		}
+		&__caption {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			padding: 15px;
+			color: #fff;
+			background: rgba(0, 0, 0, .5);
+		}
+		&__link {
+			display: block;
+		}
+	}
+	/* Link */
+	&-format-link {
+		padding: 10px 10px 10px 10px;
+		text-transform: uppercase;
+		margin: 0 10px;
+		@include font-size(0.9375);
+		@include media-breakpoint-between(md, lg) {
+			@include font-size(0.75);
+		}
+		@include media-breakpoint-down(xs) {
+			@include font-size(0.6);
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&-thumbnail {
+		.has-thumb & {
+			position: relative;
+		}
+		&__format-link {
+			.has-thumb & {
+				position: absolute;
+				top: 50%;
+				right: 0;
+				bottom: 50%;
+				left: 0;
+				text-align: center;
+				.post-format-link {
+					margin: -20px 0 0 0;
+				}
+			}
+		}
+	}
+	/* Quote */
+	&-format-quote {
+		background-color: transparent;
+		@include font-size(1.625);
+		line-height: 1.25;
+		&::before {
+			top: 60px;
+		}
+	}
+	/* Wrapper for non-image featured content */
+	&-featured-content {
+		margin: -30px -30px 1.5em -30px;
+		position: relative;
+		.format-video & {
+			background: none;
+		}
+		.post__cats {
+			.format-video & {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				@include media-breakpoint-only(md) {
+					position: relative;
+					top: auto;
+					left: auto;
+					margin: 15px 0 15px 30px;
+				}
+				@include media-breakpoint-down(xs) {
+					position: relative;
+					top: auto;
+					left: auto;
+					margin: 15px 0 15px 30px;
+				}
+			}
+		}
+	}
+	&.format-status {
+		.post__cats {
+			padding: 0 0 10px;
+		}
+	}
+}
+
+.format {
+	&-audio {
+		.mejs-container {
+			margin: 10px 0;
+		}
+		.entry-content .mejs-container {
+			display: none;
+		}
+		.entry-meta {
+			margin: 10px 0;
+		}
+	}
+	&-gallery {
+		.entry-content > .post-gallery {
+			display: none;
+		}
+	}
+	&-aside {
+		.entry-title {
+			.blog &,
+			.archive & {
+				display: none;
+			}
+		}
+	}
+}

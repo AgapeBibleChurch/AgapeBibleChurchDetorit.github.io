@@ -1,0 +1,17 @@
+#tm_builder_outer_content .tm_pb_toggle.tm_pb_toggle_close {
+	background-color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_toggle.tm_pb_toggle_open {
+	background-color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_toggle .tm_pb_toggle_title,
+#tm_builder_outer_content .tm_pb_toggle .tm_pb_toggle_title::before {
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_accordion .tm_pb_toggle.tm_pb_toggle_close .tm_pb_toggle_title:first-letter,
+#tm_builder_outer_content .tm_pb_module.tm_pb_accordion .tm_pb_toggle.tm_pb_toggle_open .tm_pb_toggle_title:first-letter{
+	color: $regular_link_color;
+}

@@ -1,0 +1,11 @@
+.site-footer.centered {
+	.footer-container{
+		text-align: center;
+	}
+	.site-info{
+		* + .social-list,
+		* + .footer-copyright{
+			margin-top: 15px;
+		}
+	}
+}

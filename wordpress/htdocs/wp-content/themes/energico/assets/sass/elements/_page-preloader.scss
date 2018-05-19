@@ -1,0 +1,159 @@
+.page-preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 0;
+	width: 100px;
+	padding-bottom: 40%;
+
+	@include media-breakpoint-up(sm) {
+		padding-bottom: 25%;
+	}
+
+	@include media-breakpoint-up(md) {
+		padding-bottom: 15%;
+	}
+
+	@include media-breakpoint-up(lg) {
+		padding-bottom: 10%;
+	}
+
+	&-cover {
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.preloader-top {
+	position: absolute;
+	width: 100%;
+	height: 75%;
+	top: 0;
+	overflow: hidden;
+}
+
+.preloader-top-sun {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 0;
+	width: 35%;
+	padding-bottom: 35%;
+	animation: preloader 3s ease infinite;
+}
+
+.preloader-top-sun-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	border: 5px solid gold;
+	box-sizing: border-box;
+}
+
+.preloader-top-sun-line {
+	position: absolute;
+	width: 20%;
+	height: 5px;
+	border-radius: 5px;
+	background: gold;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.preloader-top-sun-line-0 {
+	transform: rotate(0deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-45 {
+	transform: rotate(45deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-90 {
+	transform: rotate(90deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-135 {
+	transform: rotate(135deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-180 {
+	transform: rotate(180deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-225 {
+	transform: rotate(225deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-270 {
+	transform: rotate(270deg) translateX(-350%)
+}
+
+.preloader-top-sun-line-315 {
+	transform: rotate(315deg) translateX(-350%)
+}
+
+.preloader-bottom {
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	bottom: 0;
+}
+
+.preloader-bottom-line {
+	position: absolute;
+	background: gold;
+	height: 5px;
+	border-radius: 5px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.preloader-bottom-line-lg {
+	width: 100%;
+	top: 0%
+}
+
+.preloader-bottom-line-md {
+	width: 75%;
+	top: 25%
+}
+
+.preloader-bottom-line-sm {
+	width: 50%;
+	top: 50%
+}
+
+.preloader-bottom-line-xs {
+	width: 25%;
+	top: 75%
+}
+
+@keyframes preloader {
+	0% {
+		transform: translateY(200%) rotate(0deg)
+	}
+	25% {
+		transform: translateY(0) rotate(0deg);
+		transition-timing-function: ease-out;
+	}
+	100% {
+		transform: translateY(200%) rotate(-180deg);
+		transition-timing-function: ease-in;
+	}
+}
