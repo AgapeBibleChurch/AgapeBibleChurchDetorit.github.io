@@ -17,6 +17,14 @@
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.6</generator>
+
+<image>
+	<url>http://www.agapebiblechurchdetroit.com/wp-content/uploads/2018/05/cropped-Agape-Church-LOGO-Web-symbol-1-32x32.png</url>
+	<title>AgapeBibleChurchDetroit.com</title>
+	<link>http://www.agapebiblechurchdetroit.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>http://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/</link>
