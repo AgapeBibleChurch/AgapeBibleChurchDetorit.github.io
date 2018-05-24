@@ -1,0 +1,35 @@
+/* #Elements */
+blockquote {
+	color: $regular_text_color;
+	font-family:$h1_font_family;
+}
+
+blockquote cite {
+	color: $regular_link_color;
+}
+
+blockquote a:hover {
+	color: $regular_accent_color_2;
+}
+
+blockquote cite a:hover{
+	color: $regular_accent_color_2;
+}
+
+blockquote:before{
+	color: $regular_accent_color_1;
+}
+
+code {
+	color: $invert_text_color;
+	background: $regular_link_color;
+	font-family:$body_font_family;
+}
+
+ul > li::before{
+	background: $regular_accent_color_1;
+}
+
+strong{
+	color: $regular_accent_color_2;
+}

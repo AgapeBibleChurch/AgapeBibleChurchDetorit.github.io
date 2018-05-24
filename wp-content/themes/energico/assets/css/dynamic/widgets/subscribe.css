@@ -1,0 +1,27 @@
+.subscribe-block__input { color: $regular_text_color; }
+
+.sidebar .follow-block{
+    background:$regular_accent_color_2;
+    color: $invert_text_color;
+}
+
+.sidebar .widget-subscribe h4{
+    color: $invert_h4_color;
+}
+
+.sidebar .subscribe-block {
+    background:$regular_link_color;
+    color: $invert_text_color;
+}
+
+.follow-block .social-list__items li a::before{
+     color: $invert_text_color;
+ }
+
+.follow-block .social-list__items li a:hover::before{
+    color: $regular_link_color;
+}
+
+.footer-area .social-list .menu-item > a:hover::before{
+    color: $invert_link_hover_color;
+}

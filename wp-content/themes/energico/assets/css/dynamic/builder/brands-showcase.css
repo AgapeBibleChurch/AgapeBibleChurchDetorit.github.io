@@ -1,0 +1,14 @@
+#tm_builder_outer_content .tm_pb_brands_showcase_module__wrapper .swiper-button-next::before,
+#tm_builder_outer_content .tm_pb_brands_showcase_module__wrapper .swiper-button-prev::before{
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_brands_showcase_module__wrapper .swiper-button-next:hover::before,
+#tm_builder_outer_content .tm_pb_brands_showcase_module__wrapper .swiper-button-prev:hover::before{
+	color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_brands_showcase_module__wrapper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+#tm_builder_outer_content .tm_pb_brands_showcase_module__wrapper .swiper-pagination .swiper-pagination-bullet:hover{
+	background:  $regular_accent_color_1;
+}

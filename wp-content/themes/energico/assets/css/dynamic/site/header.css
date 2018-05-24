@@ -1,0 +1,105 @@
+/* #Header */
+.header-container {
+	background-color: $header_bg_color;
+	background-image: url($header_bg_image);
+	background-repeat: $header_bg_repeat;
+	background-position: $header_bg_position_x top;
+	background-attachment: $header_bg_attachment;
+}
+
+.site-header.transparent .header-container {
+	background: @alpha($header_bg_color, 90%);
+}
+
+/* ##Logo */
+.site-logo {
+	font-style: $header_logo_font_style;
+	font-weight: $header_logo_font_weight;
+	font-size: $header_logo_font_size{px};
+	font-family: @font_family( $header_logo_font_family );
+}
+.site-logo__link:hover {
+	color: $regular_accent_color_2;
+}
+
+/* ##Top Panel */
+
+.top-panel {
+	background-color: $top_panel_bg;
+}
+
+.top-panel.gradient {
+	background: linear-gradient(-90deg, transparent -30%, $gradient_color_1 50%, transparent 110%), $gradient_color_2;
+}
+
+.top-panel__message .fa,
+.top-panel__message .material-icons {
+	color: $regular_accent_color_1;
+}
+
+.info-block,
+.info-block a,
+.top-panel__menu-list .menu-item a,
+.top-panel .social-list .menu-item > a{
+	color: $invert_text_color;
+}
+
+.info-block a:hover,
+.top-panel__menu-list .menu-item a:hover,
+.top-panel .social-list .menu-item > a:hover{
+	color: $regular_accent_color_2;
+}
+
+.top-panel__search > span{
+	background: $invert_accent_color_1;
+	color: $regular_link_color;
+}
+
+.top-panel__search > span:hover{
+	background: $regular_accent_color_2;
+}
+
+.top-panel__search .search-form__field[type='search'],
+.top-panel__search .cherry-search__field[type='search']{
+	border-color: $invert_accent_color_1;
+	color: $invert_text_color;
+}
+
+.top-panel__search .search-form__field[type='search']::-webkit-input-placeholder,
+.top-panel__search .cherry-search__field[type='search']::-webkit-input-placeholder {
+	color: $invert_text_color;
+}
+
+.top-panel__search .search-form__field[type='search']::-moz-placeholder,
+.top-panel__search .cherry-search__field[type='search']::-moz-placeholder{
+	color: $invert_text_color;
+}
+
+.top-panel__search .search-form__field[type='search']:-moz-placeholder,
+.top-panel__search .cherry-search__field[type='search']:-moz-placeholder{
+	color: $invert_text_color;
+}
+
+.top-panel__search .search-form__field[type='search']:-ms-input-placeholder,
+.top-panel__search .cherry-search__field[type='search']:-ms-input-placeholder  {
+	color: $invert_text_color;
+}
+
+
+.top-panel .search-form__submit i,
+.top-panel .cherry-search__submit span{
+	color: $invert_text_color;
+}
+
+.top-panel .search-form__submit:hover i,
+.top-panel .cherry-search__submit:hover span{
+	color:$regular_accent_color_2;
+}
+
+.site-logo__link{
+	color:$regular_accent_color_2;
+}
+
+.header-container .main-navigation.isStuck{
+	background: $invert_accent_color_1;
+}
