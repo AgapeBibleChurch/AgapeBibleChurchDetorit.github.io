@@ -1,0 +1,353 @@
+.single-projects {
+	.cherry-projects-single-post-format-gallery {
+		.featured-image {
+			margin-bottom: 1em;
+		}
+
+		.cherry-projects-slider__instance {
+			margin-bottom: 0;
+			.slider-pro {
+				.sp-thumbnails-container.sp-bottom-thumbnails{
+					position: relative;
+				}
+				.sp-arrows {
+					.sp-arrow {
+						text-transform: uppercase;
+					}
+				}
+
+
+				.sp-thumbnails-container {
+					.sp-thumbnail {
+						border: none;
+						position: relative;
+						&:hover {
+							border: none;
+							&::before {
+								opacity: 1;
+							}
+						}
+						&::before {
+							content: '';
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							left: 0;
+							@include transition(.3s ease all);
+							opacity: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.wp-playlist-light {
+		border: none;
+		margin: 20px 0 0;
+		padding: 0 10px;
+		.wp-playlist-current-item {
+			display: none;
+		}
+	}
+
+	.cherry-projects-video-list {
+		text-align: center;
+		margin-top: 30px;
+		width: auto;
+	}
+
+	figure .wp-image {
+		line-height: 0;
+		height: auto;
+	}
+
+	.cherry-projects-additional-image-list {
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+
+	.cherry-projects-single__container {
+		display: block;
+		margin-bottom: 3em;
+		.cherry-projects-single__content {
+			overflow: hidden;
+			padding: 20px 30px 30px 30px;
+			> ul {
+				margin-bottom: 30px;
+				li {
+					h5 {
+						text-transform: none;
+						margin: 0;
+					}
+				}
+			}
+		}
+
+		.external-link {
+			@include font-size(0.75);
+			text-transform: uppercase;
+			border-radius: 30px;
+			font-weight: 400;
+			padding: 20px 50px;
+			box-shadow: none;
+			display: inline-block;
+		}
+
+		.cherry-projects-single-meta {
+			border-color: $color__background-hr;
+			padding: 5px 0;
+			@include font-size(0.75);
+			a {
+				margin-right: 10px;
+				position: relative;
+				&::before {
+					content: '';
+					height: 2px;
+					width: 2px;
+					border-radius: 50%;
+					position: absolute;
+					top: 50%;
+					right: -7px;
+					transform: translate(0, -50%);
+				}
+				&:last-child {
+					margin-right: 0;
+					&::before {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.cherry-projects-single__media {
+			margin-right: 0;
+			.featured-image a {
+				img {
+					width: auto;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.cherry-projects-slider__instance .slider-pro .sp-thumbnails-container .sp-selected-thumbnail .sp-thumbnail::before {
+	opacity: 1 !important;
+}
+
+.cherry-projects-single-details-list {
+	.cherry-projects-details-list-title {
+		text-transform: uppercase;
+	}
+	ul {
+		max-width: 530px;
+		li {
+			text-transform: uppercase;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			@include media-breakpoint-up(sm){
+				flex-wrap: nowrap;
+			}
+			span {
+				max-width: 100%;
+				@include media-breakpoint-up(sm){
+					max-width: 56%;
+				}
+			}
+			&::before {
+				display: none;
+			}
+		}
+	}
+}
+
+#main {
+	.cherry-skill-item {
+		position: static;
+		.skill-label {
+			@include font-size(1.0625);
+		}
+		.skill-bar em {
+			margin-right: 10px;
+		}
+	}
+	.cherry-projects-single-details-list ul li {
+		padding-left: 0;
+		@include media-breakpoint-down(xs) {
+			text-align: left;
+			span {
+				width: 100%;
+				float: none;
+				display: block;
+			}
+		}
+	}
+
+	.additional-image-list {
+		li {
+			padding-left: 0;
+			&::before {
+				display: none;
+			}
+			.wp-image {
+				margin-bottom: 10px;
+			}
+			& + li {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+.tm_pb_cherry_projects, .cherry-projects-wrapper {
+	margin-bottom: 30px;
+	.projects-container.list-layout {
+		.inner-wrapper {
+			flex-wrap: wrap;
+			@include media-breakpoint-up(lg) {
+				flex-wrap: nowrap;
+			}
+			.project-media, .project-content {
+				flex: 0 1 100%;
+				min-width: 100%;
+				@include media-breakpoint-up(lg) {
+					flex: 0 1 50%;
+					min-width: 50%;
+				}
+			}
+			.project-content {
+				padding: 30px;
+			}
+			.project-media {
+				margin-right: 0;
+			}
+			.featured-image {
+				margin-bottom: 0;
+			}
+			.cherry-projects-single-details-list ul {
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+.projects-list {
+	.projects-item {
+		h3 {
+			text-transform: uppercase;
+			margin-top: 0;
+		}
+
+		.cherry-projects-details-list-title {
+			@include font-size(0.75);
+			text-transform: uppercase;
+		}
+
+		.featured-image {
+			margin-bottom: 20px;
+		}
+
+		.project-content {
+			padding: 0 30px 30px 30px;
+		}
+
+		.cherry-projects-single-details-list ul li {
+			text-align: right;
+			span {
+				text-align: left;
+			}
+		}
+
+		.more-button {
+			@include font-size(0.75);
+			text-transform: uppercase;
+			border-radius: 30px;
+			font-weight: 400;
+			padding: 18px 50px;
+			box-shadow: none;
+			display: inline-block;
+		}
+
+		.project-meta {
+			padding: 10px 0;
+			@include font-size(0.75);
+			margin: 0;
+			a {
+				margin-right: 10px;
+				position: relative;
+				&::before {
+					content: '';
+					height: 2px;
+					width: 2px;
+					border-radius: 50%;
+					position: absolute;
+					top: 50%;
+					right: -7px;
+					transform: translate(0, -50%);
+				}
+				&:last-child {
+					margin-right: 0;
+					&::before {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+#main .projects-filters {
+	margin: 10px 0;
+	> div {
+		ul li {
+			@include font-size(1);
+			span {
+				@include transition(.3s ease all);
+			}
+			&::before {
+				display: none;
+			}
+			& + li {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+body .cherry-projects-ajax-loader {
+	background: transparent;
+}
+
+body .projects-item-instance.simple-scale-hover .hover-content > * {
+	transform: scale(0) translateZ(0);
+}
+
+body .projects-item-instance.simple-scale-hover .hover-content:hover > * {
+	transform: scale(1) translateZ(0);
+}
+
+#main .projects-pagination, .page-navigation {
+	span {
+		line-height: 1;
+		display: inline-block;
+		margin: 0 10px 5px 0;
+		text-align: center;
+		text-decoration: none;
+		@include font-size(0.75);
+		text-transform: uppercase;
+		padding: 0;
+		@include transition(.3s ease all);
+	}
+	ul li {
+		padding-left: 0;
+		&::before {
+			display: none;
+		}
+		& + li {
+			margin-top: 0;
+		}
+	}
+}
