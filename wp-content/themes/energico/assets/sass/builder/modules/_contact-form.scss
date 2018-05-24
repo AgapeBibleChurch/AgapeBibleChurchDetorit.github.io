@@ -1,0 +1,120 @@
+$contact-message_font-size: 12px;
+
+#tm_builder_outer_content {
+	.tm_section_specialty {
+		.tm_pb_contact_form_container {
+			padding-bottom: 30px;
+		}
+		.tm_pb_row_inner {
+			@include media-breakpoint-down(xs) {
+				width: auto;
+			}
+		}
+	}
+	.tm_pb_contact_form {
+		position: relative;
+		.tm_contact_bottom_container {
+			position: relative;
+			overflow: visible;
+		}
+	}
+	div.tm_pb_contact_right {
+		display: block;
+		@include media-breakpoint-up(xl) {
+			position: absolute;
+			right: calc(100% + 30px);
+			top: 20px;
+			min-width: 200px;
+		}
+		input {
+			border-radius: 35px;
+			@include font-size(0.9375);
+			background: transparent;
+			&:focus {
+				box-shadow: none;
+			}
+		}
+	}
+	.tm_pb_contact_main_title {
+		margin-bottom: 25px;
+		margin-top: 30px;
+		text-transform: uppercase;
+	}
+
+	.tm_contact_bottom_container {
+		body & {
+			float: none;
+			text-align: left;
+			.tm_pb_contact_submit {
+				padding: 15px 39px;
+				margin-top: 24px;
+				border-radius: 35px;
+				@include font-size(0.9375);
+			}
+		}
+	}
+
+	.tm_pb_contact_field {
+		text-align: left;
+		width: 100%;
+		.tm_pb_contact_form_input.tm_contact_error {
+			border-color: $color__not-valid;
+		}
+		input, textarea, select {
+			border-radius: 35px;
+			@include font-size(0.9375);
+			background: transparent;
+			margin: 0 0 8px 0;
+			&:focus {
+				box-shadow: none;
+			}
+		}
+		textarea {
+			min-height: 190px;
+		}
+	}
+	.tm_contact_error {
+		border: 1px solid $color__not-valid;
+	}
+	.cf-success-message {
+		font-size: 12px;
+		color: $color__valid;
+	}
+	.tm-pb-contact-message {
+		position: relative;
+		text-align: left;
+		color: $color__not-valid;
+		margin-bottom: 10px;
+		ul li::before {
+			display: none;
+		}
+		li, p {
+			@include font-size(0.9375);
+		}
+		p {
+			padding-right: $contact-message_font-size;
+			margin: 0;
+		}
+		p, ul {
+			display: inline-block;
+		}
+		ul + p::before {
+			content: "";
+			display: block;
+		}
+		ul li {
+			display: inline;
+			&:first-child {
+				padding: 0;
+			}
+			&::after {
+				content: ",";
+				display: inline-block;
+				margin-right: $contact-message_font-size / 2;
+			}
+			&:last-child::after {
+				display: none;
+			}
+		}
+	}
+}

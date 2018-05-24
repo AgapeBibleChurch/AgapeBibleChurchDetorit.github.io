@@ -1,0 +1,15 @@
+body #tm_builder_outer_content {
+	.tm_pb_counters.tm_pb_module {
+		.tm_pb_counter {
+			&_amount {
+				padding: 5px 2% 5px 5px;
+			}
+			&_title {
+				margin-bottom: 10px;
+			}
+		}
+		> [class^="tm_pb_counter_"] + [class^="tm_pb_counter_"] {
+			padding-top: 25px;
+		}
+	}
+}
