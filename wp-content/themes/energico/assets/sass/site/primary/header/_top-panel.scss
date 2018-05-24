@@ -1,0 +1,253 @@
+.top-panel {
+	padding: 3px $grid-gutter-width/2;
+	text-align: left;
+
+	.container & {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	&__menu {
+		ul li {
+			@include font-size(0.75);
+			@include media-breakpoint-up(md) {
+				@include font-size(1.0625);
+			}
+		}
+	}
+
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__message {
+		display: none;
+		@include font-size(0.875);
+		font-weight: 300;
+
+		@include media-breakpoint-up(md) {
+			display: block;
+		}
+		.info-block {
+			margin-top: 1em;
+
+			@include media-breakpoint-up(lg) {
+				margin-top: 0;
+				margin-right: 1.5em;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		.material-icons {
+			line-height: 2;
+			width: 2em;
+			height: 2em;
+			margin: 0 1em 0 0;
+			text-align: center;
+			vertical-align: middle;
+			border-radius: 2em;
+			background: #fff;
+			@include font-size(1);
+		}
+	}
+
+	&__search {
+		display: inline-block;
+		text-align: right;
+		height: 26px;
+		line-height: 1;
+		width: 100%;
+		.search-form:not(.cherry-search__form), .cherry-search {
+			position: absolute;
+			width: calc(100% - 25px);
+			top: 50%;
+			right: 0;
+			height: 26px;
+			@include translate(0, -50%);
+			@include transition(.3s ease all);
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		div.cherry-search {
+			z-index: 999;
+			.cherry-search__results-list ul li .cherry-search__item-content {
+				display: none;
+			}
+			form.cherry-search__form button.cherry-search__submit {
+				body & {
+					padding: 0 5px;
+				}
+			}
+		}
+
+		.search-form, .cherry-search {
+			&__field[type='search'] {
+				border: 1px solid;
+				width: calc(100% - 30px);
+				height: 26px;
+				border-radius: 25px;
+				@include font-size(0.825);
+				padding: 0 10px;
+			}
+			&__submit i {
+				@include transition(.3s ease all);
+			}
+		}
+
+		> .search_toggle {
+			position: relative;
+			display: inline-block;
+			@include transition(.3s ease all);
+			@include font-size(0.625);
+			height: 25px;
+			width: 25px;
+			line-height: 25px;
+			text-align: center;
+			border-radius: 50%;
+			z-index: 1;
+			animation: menu-out .3s ease;
+			animation-iteration-count: 1;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	&__inner_wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+
+		* + & {
+			max-width: 100%;
+			justify-content: space-between;
+			@include media-breakpoint-up(md) {
+				max-width: 200px;
+				justify-content: flex-end;
+			}
+
+			.top-panel__search, .social-list {
+				width: auto;
+			}
+
+			.top-panel__search {
+				margin: 0 0 0 auto;
+			}
+
+			.search-form:not(.cherry-search__form), .cherry-search {
+				right: 25px;
+			}
+			.social-list {
+				body & {
+					text-align: right;
+				}
+			}
+		}
+
+		&.srch-on {
+			.search-form:not(.cherry-search__form), .cherry-search {
+				opacity: 1;
+				visibility: visible;
+			}
+			.search_toggle {
+				animation: menu-in .3s ease;
+				animation-iteration-count: 1;
+				&::before {
+					content: '\f00d';
+				}
+			}
+			.social-list {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+	}
+
+	.social-list {
+		display: inline-block;
+		line-height: 1;
+		margin-right: 10px;
+		width: auto;
+		@include transition(.3s ease all);
+		text-align: left;
+		@include media-breakpoint-up(sm) {
+			width: 100%;
+		}
+		li + li {
+			margin-left: 6px;
+		}
+	}
+}
+
+@-webkit-keyframes menu-in {
+	0% {
+		@include scale(1);
+		@include font-size(0);
+	}
+
+	50% {
+		@include scale(0);
+	}
+
+	100% {
+		@include scale(1);
+		@include font-size(0.625);
+	}
+}
+
+@keyframes menu-in {
+	0% {
+		@include scale(1);
+		@include font-size(0);
+	}
+
+	50% {
+		@include scale(0);
+	}
+
+	100% {
+		@include scale(1);
+
+		@include font-size(0.625);
+	}
+}
+
+@-webkit-keyframes menu-out {
+	0% {
+		@include scale(1);
+		@include font-size(0);
+	}
+
+	50% {
+		@include scale(0);
+	}
+
+	100% {
+		@include scale(1);
+		@include font-size(0.625);
+	}
+}
+
+@keyframes menu-out {
+	0% {
+		@include scale(1);
+		@include font-size(0);
+	}
+
+	50% {
+		@include scale(0);
+	}
+
+	100% {
+		@include scale(1);
+
+		@include font-size(0.625);
+	}
+}
