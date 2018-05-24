@@ -174,7 +174,7 @@
     float:left;
     width:50px;
     height:70px;
-    background-image:url(http://www.agapebiblechurchdetroit.com/wp-content/plugins/wp-google-maps/images/premium.png);
+    background-image:url(https://www.agapebiblechurchdetroit.com/wp-content/plugins/wp-google-maps/images/premium.png);
     background-repeat: no-repeat;
 }
 .wpgm_details {
@@ -359,8 +359,8 @@ ul.wpgmza_marker_list_class {
 }
 
 .wpgmza-badge {
-    background-image: url(http://www.agapebiblechurchdetroit.com/wp-content/plugins/wp-google-maps/images/WP-google-maps-logo-1-B-transparent.png); position: absolute;
-    background: url(http://www.agapebiblechurchdetroit.com/wp-content/plugins/wp-google-maps/images/WP-google-maps-logo-1-B-transparent.png) center no-repeat;
+    background-image: url(https://www.agapebiblechurchdetroit.com/wp-content/plugins/wp-google-maps/images/WP-google-maps-logo-1-B-transparent.png); position: absolute;
+    background: url(https://www.agapebiblechurchdetroit.com/wp-content/plugins/wp-google-maps/images/WP-google-maps-logo-1-B-transparent.png) center no-repeat;
     -webkit-background-size: 202px 101px;
     background-size: 202px 101px;
     color: #fff;

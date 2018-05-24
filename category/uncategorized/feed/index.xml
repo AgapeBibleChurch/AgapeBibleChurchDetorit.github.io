@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; AgapeBibleChurchDetroit.com</title>
-	<atom:link href="http://www.agapebiblechurchdetroit.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>http://www.agapebiblechurchdetroit.com</link>
+	<atom:link href="https://www.agapebiblechurchdetroit.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.agapebiblechurchdetroit.com</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Thu, 24 May 2018 22:16:02 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,16 +19,16 @@
 	<generator>https://wordpress.org/?v=4.9.6</generator>
 
 <image>
-	<url>http://www.agapebiblechurchdetroit.com/wp-content/uploads/2018/05/cropped-Agape-Church-LOGO-Web-symbol-1-32x32.png</url>
+	<url>https://www.agapebiblechurchdetroit.com/wp-content/uploads/2018/05/cropped-Agape-Church-LOGO-Web-symbol-1-32x32.png</url>
 	<title>Uncategorized &#8211; AgapeBibleChurchDetroit.com</title>
-	<link>http://www.agapebiblechurchdetroit.com</link>
+	<link>https://www.agapebiblechurchdetroit.com</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hello world!</title>
-		<link>http://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/</link>
-		<comments>http://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/#comments</comments>
+		<link>https://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/</link>
+		<comments>https://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/#comments</comments>
 		<pubDate>Sun, 20 May 2018 19:56:31 +0000</pubDate>
 		<dc:creator><![CDATA[agapebiblechurchdetroit]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
@@ -37,7 +37,7 @@
 		<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 				<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/feed/</wfw:commentRss>
+			<wfw:commentRss>https://www.agapebiblechurchdetroit.com/2018/05/20/hello-world/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 		</item>
 	</channel>
