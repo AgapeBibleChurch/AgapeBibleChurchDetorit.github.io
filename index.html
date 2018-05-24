@@ -133,7 +133,7 @@ body.custom-background { background-color: #ffffff; }
 				
 					
 					
-				<div class="row tm_pb_row tm_pb_row_1 tm_pb_equal_columns tm_pb_section_parallax">
+				<div class="row tm_pb_row tm_pb_row_1 tm_pb_equal_columns tm_pb_row_fullwidth tm_pb_section_parallax">
 					
 					<div class="tm_pb_column tm_pb_column_4_4  tm_pb_column_1 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 tm_pb_section_parallax">
 				
@@ -175,38 +175,30 @@ body.custom-background { background-color: #ffffff; }
 				<div class="tm_pb_module tm_pb_accordion  tm_pb_accordion_0">
 				
 <div class="tm_pb_module tm_pb_toggle tm_pb_toggle_open  tm_pb_accordion_item_0">
-				<h5 class="tm_pb_toggle_title">-  Text Us</h5>
+				<h5 class="tm_pb_toggle_title">- Text Us</h5>
 				<div class="tm_pb_toggle_content clearfix">
 					
+<p>&nbsp;</p>
 <div class="tm_pb_section tm_pb_section_3 tm_section_regular tm_section_transparent">
 <div class="container">
 <div class="row tm_pb_row tm_pb_row_3">
 <div class="tm_pb_column tm_pb_column_4_4 tm_pb_column_3 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 <div class="tm_pb_text tm_pb_module tm_pb_bg_layout_light tm_pb_text_align_left tm_pb_text_1">
 <h1 style="text-align: center;">Will you come this Sunday?</h1>
-<h2 style="text-align: center;">Text your name and <span style="color: #ff0000;">YES&nbsp;<span style="color: #000000;">to (313) 330-1446</span></span></h2>
+<h2 style="text-align: center;">Text your name and <span style="color: #ff0000;">YES&nbsp;<span style="color: #000000;">to</span><br /><a href="tel:+1-313-330-1446"><span style="color: #0000FF;">(313)-330-1446</span></a></span></h2>
 <h3 style="text-align: center;"><strong><span style="color: #ff0000;">WE EXPECT YOU THIS SUNDAY FROM 7:30AM&nbsp;– 9AM</span></strong></h3>
 </div>
-<p> <!-- .tm_pb_text -->
-</p>
 </div>
-<p> <!-- .tm_pb_column -->
-</p>
 </div>
-<p> <!-- .tm_pb_row -->
-</p>
 </div>
 </div>
 
 				</div> <!-- .tm_pb_toggle_content -->
 			</div> <!-- .tm_pb_toggle --><div class="tm_pb_module tm_pb_toggle tm_pb_toggle_close  tm_pb_accordion_item_1">
-				<h5 class="tm_pb_toggle_title">-  Email Us!</h5>
+				<h5 class="tm_pb_toggle_title">- Email Us!</h5>
 				<div class="tm_pb_toggle_content clearfix">
 					
-</p>
-<form method="POST" action="https://formspree.io/Admin@AgapeBibleChurchDetroit.com">
-  <input type="email" name="email" placeholder="Your email"><br />  <textarea name="message" placeholder="Your message"></textarea><br />  <button type="submit">Send</button><br />  <input type="text" name="_gotcha" style="display:none"><br /></form>
-</p>
+<form action="https://formspree.io/Admin@AgapeBibleChurchDetroit.com" method="POST"><input name="email" type="email" placeholder="Your email"><br /><textarea name="message" placeholder="Your message"></textarea><br /><button type="submit">Send</button><br /><input style="display: none;" name="_gotcha" type="text"></form>
 
 				</div> <!-- .tm_pb_toggle_content -->
 			</div> <!-- .tm_pb_toggle -->
@@ -300,10 +292,8 @@ body.custom-background { background-color: #ffffff; }
 				
 .tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 { font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;font-size: 69px; color: #ffffff !important; background-color: rgba(221,51,51,0.45); padding-top: 100px !important; padding-bottom: 275px !important; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_section_1 { background-color:#1e73be; }
-.tm_pb_builder #tm_builder_outer_content .tm_pb_row_1 { max-width:100% !important; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_countdown_timer_0.tm_pb_countdown_timer { padding-right: 100px !important; padding-left: 100px !important; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_column_2 { padding-bottom:-50px; }
-.tm_pb_builder #tm_builder_outer_content .tm_pb_accordion_item_1:after { margin-top: -100px; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_accordion_0 .tm_pb_toggle_close { background-color: #dd3333; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_accordion_0 .tm_pb_toggle_close h5.tm_pb_toggle_title { color: #ffffff !important; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_section_3:before { margin-top: -100px;margin-bottom: -100px; }
@@ -314,6 +304,11 @@ body.custom-background { background-color: #ffffff; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0 .tm_pb_main_blurb_image { red }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_text_1 { margin-top: -60px !important; }
 .tm_pb_builder #tm_builder_outer_content .tm_pb_text_1:before { margin-top: -100px;margin-bottom: -100px; }
+
+@media (max-width: 47.9em) {
+	.tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 { font-size: 60px; }
+	.tm_pb_builder #tm_builder_outer_content .tm_pb_countdown_timer_0.tm_pb_countdown_timer { margin-right: -100px !important; margin-left: -100px !important; }
+}
 
 @media only screen and ( min-width: 981px ) {
 	.tm_pb_builder #tm_builder_outer_content .tm_pb_section_1 { padding-right: -100px; padding-left: -100px; }
