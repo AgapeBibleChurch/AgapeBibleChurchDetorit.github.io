@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d2255c8003affba56738641d18fa55db124004942fb2d6eae53ef379ab48e263
-size 375
+(function($){
+  jQuery.fn.closest_descendent = function( selector ) {
+    var $found,
+      $current_children = this.children();
+
+    while ( $current_children.length ) {
+      $found = $current_children.filter( selector );
+      if ( $found.length ) {
+        break;
+      }
+      $current_children = $current_children.children();
+    }
+
+    return $found;
+  };
+}(jQuery));
