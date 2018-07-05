@@ -203,6 +203,32 @@ body.custom-background { background-color: #ffffff; }
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+        <script type="text/javascript" >
+            var ShortPixelConstants = {
+                STATUS_SUCCESS: 1,
+                STATUS_EMPTY_QUEUE: 0,
+                STATUS_ERROR: -1,
+                STATUS_FAIL: -2,
+                STATUS_QUOTA_EXCEEDED: -3,
+                STATUS_SKIP: -4,
+                STATUS_NO_KEY: -6,
+                STATUS_RETRY: -7,
+                STATUS_QUEUE_FULL: -404,
+                STATUS_MAINTENANCE: -500,
+                WP_PLUGIN_URL: 'https://www.agapebiblechurchdetroit.com/wp-content/plugins/shortpixel-image-optimiser',
+                WP_ADMIN_URL: 'https://www.agapebiblechurchdetroit.com/wp-admin/',
+                API_KEY: "UfYe5xlqQXpzezBsaUZ3",
+                DEFAULT_COMPRESSION: 1,
+                MEDIA_ALERT: 'todo',
+                FRONT_BOOTSTRAP: 1,
+                AJAX_URL: 'https://www.agapebiblechurchdetroit.com/wp-admin/admin-ajax.php',
+                AFFILIATE: ''
+            };
+            //check after 10 seconds if ShortPixel initialized OK, if not, force the init (could happen if a JS error somewhere else stopped the JS execution).
+            setTimeout(function($) {
+                ShortPixel.init();
+            }, 10000);
+        </script> <link rel='stylesheet' id='short-pixel.min.css-css'  href='https://www.agapebiblechurchdetroit.com/wp-content/plugins/shortpixel-image-optimiser/res/css/short-pixel.min.css?ver=4.11.0' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wp_load_style = ["energico-theme-style.css","cherry-google-fonts.css","jquery-lazyloadxt-spinner-css.css","a3a3_lazy_load.css"];
@@ -228,6 +254,15 @@ var energico = {"ajaxurl":"https:\/\/www.agapebiblechurchdetroit.com\/wp-admin\/
 <script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-content/themes/energico/cherry-framework/modules/cherry-post-formats-api/assets/js/min/cherry-post-formats.min.js?ver=1.1.0'></script>
 <script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-content/plugins/wordpress-countdown-widget/js/jquery.countdown.min.js?ver=1.0'></script>
 <script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _spTr = {"optimizeWithSP":"Optimize with ShortPixel","redoLossy":"Re-optimize Lossy","redoGlossy":"Re-optimize Glossy","redoLossless":"Re-optimize Lossless","restoreOriginal":"Restore Originals","changeMLToListMode":"In order to access the ShortPixel Optimization actions and info, please change to {0}List View{1}List View{2}Dismiss{3}","alertOnlyAppliesToNewImages":"This type of optimization will apply to new uploaded images. Images that were already processed will not be re-optimized unless you restart the bulk process.","areYouSureStopOptimizing":"Are you sure you want to stop optimizing the folder {0}?","reducedBy":"Reduced by","bonusProcessing":"Bonus processing","plusXthumbsOpt":"+{0} thumbnails optimized","plusXretinasOpt":"+{0} Retina images optimized","optXThumbs":"Optimize {0} thumbnails","reOptimizeAs":"Reoptimize {0}","restoreBackup":"Restore backup","getApiKey":"Get API Key","extendQuota":"Extend Quota","check__Quota":"Check\u00a0\u00a0Quota","retry":"Retry","thisContentNotProcessable":"This content is not processable.","imageWaitOptThumbs":"Image waiting to optimize thumbnails","pleaseDoNotSetLesserSize":"Please do not set a {0} less than the {1} of the largest thumbnail which is {2}, to be able to still regenerate all your thumbnails in case you'll ever need this.","pleaseDoNotSetLesser1024":"Please do not set a {0} less than 1024, to be able to still regenerate all your thumbnails in case you'll ever need this.","confirmBulkRestore":"Are you sure you want to restore from backup all the images in your Media Library optimized with ShortPixel?","confirmBulkCleanup":"Are you sure you want to cleanup the ShortPixel metadata info for the images in your Media Library optimized with ShortPixel? This will make ShortPixel 'forget' that it optimized them and will optimize them again if you re-run the Bulk Optimization process.","confirmBulkCleanupPending":"Are you sure you want to cleanup the pending metadata?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-content/plugins/shortpixel-image-optimiser/res/js/short-pixel.min.js?ver=4.11.0'></script>
+<script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-content/plugins/shortpixel-image-optimiser/res/js/jquery.knob.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-content/plugins/shortpixel-image-optimiser/res/js/jquery.tooltip.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.agapebiblechurchdetroit.com/wp-content/plugins/shortpixel-image-optimiser/res/js/punycode.min.js?ver=4.9.7'></script>
     <script type="text/javascript">
     (function($) {
     	$.countdown.regional['custom'] = {
