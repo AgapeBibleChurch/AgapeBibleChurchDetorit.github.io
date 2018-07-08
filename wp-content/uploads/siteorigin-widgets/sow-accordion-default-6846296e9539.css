@@ -1,0 +1,41 @@
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel {
+  margin-bottom: 25px;
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel .sow-accordion-panel-header {
+  position: relative;
+  cursor: pointer;
+  padding: 15px 30px 15px 30px;
+  background-color: #dd3333;
+  color: #ffffff;
+  text-align: center;
+  
+  
+  
+  text-transform: none;
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel .sow-accordion-panel-header:hover {
+  background-color: #1e73be;
+  color: #ffffff;
+  
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel .sow-accordion-panel-header .sow-accordion-title {
+  display: inline-block;
+  width: calc(100% - 20px);
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel .sow-accordion-panel-header .sow-accordion-open-close-button {
+  float: left;
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel:not(.sow-accordion-panel-open) > .sow-accordion-panel-header .sow-accordion-close-button {
+  display: none;
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel.sow-accordion-panel-open > .sow-accordion-panel-header .sow-accordion-open-button {
+  display: none;
+}
+.so-widget-sow-accordion-default-6846296e9539 .sow-accordion .sow-accordion-panel .sow-accordion-panel-content .sow-accordion-panel-border {
+  background-color: #dd3333;
+  padding: 15px 30px 15px 30px;
+  color: #ffffff;
+  
+  
+  overflow: auto;
+}
