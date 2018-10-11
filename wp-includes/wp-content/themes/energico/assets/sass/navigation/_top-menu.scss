@@ -1,0 +1,25 @@
+.top-panel__menu {
+	display: none;
+	@include media-breakpoint-up(sm) {
+		display: block;
+	}
+
+	&-list {
+		text-align: center;
+		.menu-item {
+			margin: .25em;
+			a {
+				text-decoration: none;
+				&:focus {
+					outline: none;
+				}
+			}
+			&.current-menu-item,
+			&.current_page_item {
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

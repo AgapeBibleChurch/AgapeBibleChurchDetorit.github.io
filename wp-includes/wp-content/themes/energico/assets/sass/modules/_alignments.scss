@@ -1,0 +1,20 @@
+.alignleft,
+#tm_builder_outer_content .tm_pb_module .alignleft {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+
+.alignright,
+#tm_builder_outer_content .tm_pb_module .alignright{
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+.aligncenter,
+#tm_builder_outer_content .tm_pb_module .aligncenter{
+	clear: both;
+	@include center-block;
+	margin-bottom: 15px;
+}

@@ -1,0 +1,11 @@
+#tm_builder_outer_content {
+	.tm_pb_number_counter.tm_pb_module {
+		h3{
+			margin-top: 25px;
+			padding-top: 0;
+		}
+		.percent{
+			@include font-size(3.5);
+		}
+	}
+}

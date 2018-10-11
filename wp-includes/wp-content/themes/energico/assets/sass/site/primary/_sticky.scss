@@ -1,0 +1,55 @@
+.sticky {
+	display: block;
+	.post__cats{
+		margin: 0;
+	}
+	&__label {
+		line-height: 22px;
+		display: inline-block;
+		float: right;
+		padding: 0 10px;
+		text-align: center;
+		border-radius: 20px;
+		position: absolute;
+		z-index: 99;
+		top: 10px;
+		right: 10px;
+		.material-icons,
+		.fa {
+			font-size: 21px;
+			line-height: 2;
+			display: block;
+			width: auto;
+			width: calc(2em - 20px);
+			height: 2em;
+			.posts-list & {
+				font-size: 21px;
+				color: inherit;
+			}
+		}
+		.has-post-thumbnail & {
+			right: -20px;
+		}
+		&.type-both {
+			.material-icons,
+			.fa {
+				display: inline-block;
+				margin: 0 5px 0 0;
+			}
+		}
+	}
+	&.posts-list__item {
+
+	}
+	.entry-title {
+		.posts-list--grid-2-cols &,
+		.posts-list--grid-3-cols & {
+			@include media-breakpoint-up(lg) {
+				font-size: 30px;
+			}
+		}
+	}
+	.post-thumbnail__img {
+		width: 100%;
+	}
+}

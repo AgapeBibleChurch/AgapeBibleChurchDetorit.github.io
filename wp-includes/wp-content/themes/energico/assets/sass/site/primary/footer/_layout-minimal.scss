@@ -1,0 +1,29 @@
+.site-footer.minimal {
+	.footer {
+		&-copyright {
+			display: block;
+			vertical-align: middle;
+
+			@include media-breakpoint-up(xl) {
+				float: left;
+				margin-top: .5em;
+			}
+		}
+		&-menu {
+			display: block;
+			vertical-align: middle;
+
+			@include media-breakpoint-up(xl) {
+				float: right;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			&__items {
+				@include media-breakpoint-up(xl) {
+					margin-left: 1.5em;
+					border-left: 1px solid rgba(255, 255, 255, .1);
+				}
+			}
+		}
+	}
+}

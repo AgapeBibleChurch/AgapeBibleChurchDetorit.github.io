@@ -1,0 +1,49 @@
+#tm_builder_outer_content {
+	.tm_pb_tabs.tm_pb_module {
+		.tm_pb_tabs_controls {
+			border: none;
+			li {
+				border: none;
+				text-transform: uppercase;
+				font-weight: 400;
+				padding: 10px 40px;
+				margin-top: 0;
+				width: 100%;
+				@include media-breakpoint-up(xl){
+					padding: 20px 40px;
+					width: auto;
+					margin-top: 10px;
+				}
+				&::before {
+					display: none;
+				}
+				a {
+					transition: .3s all ease;
+				}
+				& + li {
+					margin-left: 0;
+					margin-top: 2px;
+					@include media-breakpoint-up(xl){
+						margin-left: 2px;
+						margin-top: 0;
+					}
+				}
+				&.tm_pb_tab_active {
+					padding-top: 10px;
+					margin-top: 0;
+					bottom: 0;
+					@include media-breakpoint-up(xl){
+						padding-top: 32px;
+						bottom: -2px;
+					}
+				}
+			}
+		}
+		.tm_pb_tab  p{
+			line-height: 22px;
+		}
+		.tm_pb_all_tabs{
+			padding: 30px 38px;
+		}
+	}
+}

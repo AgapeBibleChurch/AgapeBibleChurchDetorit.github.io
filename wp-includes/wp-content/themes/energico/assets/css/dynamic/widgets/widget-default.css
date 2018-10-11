@@ -1,0 +1,166 @@
+/* #Widgets (defaults) */
+.widget li {
+	color: $regular_link_color;
+}
+.invert .widget li {
+	color: $invert_link_color;
+}
+.invert .widget select {
+	color: $regular_text_color;
+}
+
+.footer-area .widget select,
+.footer-area .widget select option{
+	color: $regular_accent_color_2;
+}
+
+.sidebar .widget-title{
+	color: $regular_link_color;
+}
+
+.widget_archive select{
+	border-color: $regular_link_color;
+}
+
+.footer-area .widget_archive select option,
+.footer-area .widget_archive select {
+	color:  $regular_accent_color_2;
+}
+
+.footer-area .widget_categories li a,
+.footer-area .widget_meta li a{
+	color: $invert_link_color;
+}
+
+.footer-area .widget_categories li a:hover,
+.footer-area .widget_meta li a:hover{
+	color: $invert_link_hover_color;
+}
+
+.widget_tag_cloud a{
+	font-family:$h1_font_family;
+	background:  $regular_link_color;
+	color: $invert_link_color;
+}
+
+.widget_tag_cloud a:hover{
+	background:  $regular_accent_color_2;
+}
+
+.widget_categories li a,
+.widget_meta li a{
+	color: $regular_text_color;
+}
+
+.widget_categories li a:hover,
+.widget_meta li a:hover{
+	color: $regular_accent_color_2;
+}
+
+.footer-area .widget_nav_menu li a{
+	font-family:$h1_font_family;
+}
+
+ .social-list ul li a{
+	color: $invert_text_color;
+}
+
+.social-list ul li a:hover{
+	color: $invert_link_hover_color;
+}
+.footer-area .social-list ul li a:hover{
+	color: $invert_link_hover_color;
+}
+
+/* #Widget Calendar */
+.widget_calendar caption {
+	color: $invert_link_color;
+	background-color: $regular_link_color;
+	font-family:$h1_font_family;
+}
+
+.widget_calendar #prev,
+.widget_calendar #next{
+	font-family:$h1_font_family;
+}
+
+.widget_calendar tbody td a, .widget_calendar th a{
+	border-color:$regular_link_color;
+}
+
+.widget_calendar th {
+	color: $regular_link_color;
+}
+.invert .widget_calendar caption {
+	background-color: $invert_accent_color_2;
+}
+.invert .widget_calendar th {
+	color: $invert_accent_color_2;
+}
+
+/* #Widget Tag Cloud */
+.invert .tagcloud a:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+
+/* #Widget Recent Posts */
+.widget_recent_entries .post-date {
+	color: $regular_text_color;
+}
+.invert .widget_recent_entries .post-date {
+	color: @darken( $invert_text_color, 10% );
+}
+
+.footer-area .widget_recent_comments li .comment-author-link,
+.footer-area .widget_recent_comments li a{
+	color: $invert_link_color;
+}
+
+.footer-area .widget_recent_comments li .comment-author-link,
+.footer-area .widget_recent_comments li a,
+.footer-area .widget_recent_comments li {
+	color: $invert_link_color;
+}
+
+.footer-area .widget_recent_comments li a:hover{
+	color:  $invert_link_hover_color;
+}
+
+/* #Widget Custom Posts */
+.custom-posts__item .entry-meta .post__date,
+.custom-posts__item .entry-meta .post__comments,
+.custom-posts__item .entry-meta .posted-by{
+	font-family:$body_font_family;
+}
+
+/* #Widget Recent comments */
+.widget_recent_comments li .comment-author-link,
+.widget_recent_comments li a{
+	color: $regular_accent_color_2;
+}
+
+.widget_recent_comments li a:hover{
+	color: $regular_accent_color_1;
+}
+
+.sidebar .widget-about__social ul li a{
+	color: $regular_accent_color_1;
+}
+
+.widget-about__social ul li a:hover{
+	color: $regular_accent_color_2;
+}
+
+/* About Author */
+.about-author_name{
+	color: $invert_h5_color;
+}
+
+.about-author_btn_box .btn{
+	font-family:$h1_font_family;
+}
+
+.about-author_btn_box .btn:hover{
+	border-color: $regular_accent_color_2;
+}

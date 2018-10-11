@@ -1,0 +1,25 @@
+#tm_builder_outer_content {
+	.tm_pb_social_media_follow.tm_pb_module {
+		li {
+			padding: 0;
+			margin: 0;
+			&::before {
+				display: none;
+			}
+			a.icon {
+				height: auto;
+				width: auto;
+				padding: 0;
+				margin: 0;
+				@include font-size(1.25);
+			}
+			& + li {
+				margin-top: 0;
+				margin-left: 10px;
+				@include media-breakpoint-up(md){
+					margin-left: 25px;
+				}
+			}
+		}
+	}
+}

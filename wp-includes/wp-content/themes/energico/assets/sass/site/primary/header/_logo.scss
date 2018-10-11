@@ -1,0 +1,22 @@
+.site-logo {
+	margin: 0;
+	&__link {
+		text-decoration: none;
+		display: inline-block;
+		height: auto;
+		line-height: 0;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.site-branding {
+	@include transition(.3s ease all);
+	line-height: 0;
+}
+
+.site-description {
+	text-align: left;
+	line-height: 1;
+}

@@ -1,0 +1,40 @@
+.so-premium-tooltip {
+  position: absolute;
+  padding: 20px;
+  border-radius: 3px;
+  z-index: 10000;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+
+  .callout {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    left: ~"calc( 50% - 10px )";
+    //box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    &.top {
+      top: ~"calc( 100% - 10px )";
+    }
+    &.bottom {
+      top: -10px;
+    }
+  }
+
+  &.theme-light {
+    background-color: #f9f9f9;
+    color: #2d2d2d;
+
+    .callout {
+      background-color: #f9f9f9;
+    }
+  }
+
+  &.theme-dark {
+    background-color: #3d3d3d;
+    color: #ffffff;
+
+    .callout {
+      background-color: #3d3d3d;
+    }
+  }
+}

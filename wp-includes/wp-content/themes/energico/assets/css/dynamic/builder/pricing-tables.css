@@ -1,0 +1,42 @@
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_pricing_table{
+	background: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_pricing_table.tm_pb_featured_table{
+	background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_pricing_heading .tm_pb_pricing_title{
+	font-size:@font_size($h4_font_size, multiple, ceil, 1)px;
+}
+
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_tm_price > span,
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_button{
+	font-family: @font_family( $h1_font_family );
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_pricing_table.tm_pb_featured_table .tm_pb_pricing_table_button{
+	border-color: $invert_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module .tm_pb_pricing_table.tm_pb_featured_table .tm_pb_pricing_table_button:hover{
+	color: $regular_accent_color_2;
+	border-color: $invert_accent_color_1;
+	background: $invert_accent_color_1;
+}
+
+
+
+#tm_builder_outer_content .tm_pb_pricing.tm_pb_module ul{
+	color: $invert_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_pricing li:before {
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_pricing .tm_pb_dollar_sign {
+	color: $regular_accent_color_1;
+}

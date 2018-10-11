@@ -1,0 +1,7 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_counters .tm_pb_counter_container {
+	background-color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_counters .tm_pb_counter_amount {
+	background-color: $regular_accent_color_1;
+}

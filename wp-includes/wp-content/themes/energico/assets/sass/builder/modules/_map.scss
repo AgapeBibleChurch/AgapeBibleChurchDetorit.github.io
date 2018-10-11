@@ -1,0 +1,12 @@
+body #tm_builder_outer_content {
+	.tm_pb_module.tm_pb_map_container {
+		.tm_pb_map {
+			min-height: 328px;
+			height: 100%;
+			h3{
+				@include font-size(1);
+			}
+		}
+	}
+}
+

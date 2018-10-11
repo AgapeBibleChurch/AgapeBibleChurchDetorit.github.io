@@ -1,0 +1,22 @@
+#tm_builder_outer_content {
+	.tm_pb_brands_showcase_module__wrapper {
+		.swiper-button-next, .swiper-button-prev {
+			background: none;
+			&::before{
+				@include font-size(3);
+				font-family:FontAwesome;
+				@include transition(.3s ease all);
+			}
+		}
+		.swiper-button-prev::before{
+			content: '\f104';
+		}
+		.swiper-button-next::before{
+			content: '\f105';
+		}
+
+		.swiper-pagination{
+			margin-top: 30px;
+		}
+	}
+}

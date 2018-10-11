@@ -1,0 +1,22 @@
+#tm_builder_outer_content {
+	.tm_pb_module.tm_pb_counters {
+		.tm_pb_counter_amount_number {
+			font-weight: 300;
+		}
+
+		.tm_pb_counter_amount {
+			padding: 1px 2% 1px 1px;
+		}
+
+		.tm_pb_counter_title {
+			margin-bottom: 6px;
+		}
+
+		> [class^="tm_pb_counter_"] {
+			padding-top: 20px;
+			&:first-child {
+				padding-top: 15px;
+			}
+		}
+	}
+}

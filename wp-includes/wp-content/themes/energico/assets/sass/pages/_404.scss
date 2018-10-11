@@ -1,0 +1,93 @@
+.error404 {
+	.cherry-search__results-list {
+		max-width: 100%;
+		@include media-breakpoint-up(xl) {
+			max-width: 350px;
+		}
+	}
+}
+
+.not-found {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	@include media-breakpoint-up(lg) {
+		padding-top: 200px;
+		padding-bottom: 230px;
+	}
+}
+
+.not-found:not(.no-results) {
+	width: 100%;
+	@include clearfix;
+	margin-bottom: 1em;
+	text-align: center;
+	@include media-breakpoint-up(xl) {
+		text-align: left;
+	}
+
+	.page-header, .page-content {
+		width: 100%;
+		float: none;
+		@include media-breakpoint-up(xl) {
+			width: 50%;
+			float: right;
+		}
+	}
+
+	.page-header {
+		text-align: center;
+		@include media-breakpoint-up(xl) {
+			text-align: right;
+		}
+		h1 {
+			@include font-size(7);
+			margin: 0;
+			line-height: 1;
+			padding-right: 0;
+			@include media-breakpoint-up(md) {
+				@include font-size(16.25);
+				padding-right: 35px;
+				margin: -24px 0 0;
+			}
+		}
+	}
+
+	.search-form {
+		margin-top: 35px;
+		max-width: 100%;
+		@include media-breakpoint-up(xl) {
+			max-width: 350px;
+		}
+		.search-form__field[type='search'] {
+			border-width: 2px;
+			padding: 0 35px 0 25px;
+		}
+		.search-form__submit i.fa {
+
+		}
+	}
+
+	@include card;
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 2em
+	}
+	.page-title {
+		margin: 25px 0;
+	}
+	h4 {
+		margin: 0 0 16px;
+	}
+}
+
+.search-no-results {
+	.sidebar .widget:first-child {
+		margin-top: 0;
+	}
+	.not-found .page-header h1 {
+		margin: 0;
+		@include font-size(3);
+		@include media-breakpoint-up(sm) {
+			@include font-size(5);
+		}
+	}
+}

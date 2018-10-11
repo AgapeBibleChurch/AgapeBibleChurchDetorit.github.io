@@ -1,0 +1,55 @@
+.header-container {
+	padding: 2rem $grid-gutter-width/2 0;
+
+	@include media-breakpoint-up(md) {
+		.main-navigation.isStuck {
+			position: fixed;
+			z-index: 1000;
+			right: 0;
+			left: 0;
+			-webkit-box-shadow: 1px 0 10px -1px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 1px 0 10px -1px rgba(0, 0, 0, 0.3);
+			box-shadow: 1px 0 10px -1px rgba(0, 0, 0, 0.3);
+			.site-header.centered & {
+				padding: 20px 0;
+			}
+			.site-header.default & {
+				text-align: center;
+				.menu > li > .sub-menu {
+					margin-top: 21px;
+				}
+			}
+			.menu {
+				justify-content: center;
+				> li {
+					&::before {
+						height: 40px;
+						top: 20px;
+					}
+					> .sub-menu {
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.container & {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+.pseudoStickyBlock {
+	display: none;
+	@include media-breakpoint-up(md) {
+		display: block;
+	}
+}
+
+@import "header/layout-default";
+@import "header/layout-centered";
+@import "header/layout-minimal";
+@import "header/layout-transparent";
+@import "header/top-panel";
+@import "header/logo";

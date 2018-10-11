@@ -1,0 +1,490 @@
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1em 0 0;
+}
+
+.tm_pb_builder .entry-content {
+	margin-top: 0;
+}
+
+.card-columns {
+	padding-top: 3em;
+}
+
+/*--------------------------------------------------------------
+### Hentry (WordPress native CSS-class for post/page article)
+--------------------------------------------------------------*/
+.hentry {
+	position: relative;
+	margin-top: 2em;
+
+	.tm_pb_builder.page & {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	&.related-posts {
+		margin-top: 1em;
+	}
+
+	.posts-list & {
+		padding: 30px 30px 30px 30px;
+	}
+
+	.single.single-cherry-services &.cherry-services {
+		padding: 0;
+		margin-top: 0;
+	}
+
+	.single &:not(.related-posts) {
+		padding: 30px 35px;
+	}
+
+	@include card;
+	&:last-child {
+		.posts-list & {
+		}
+	}
+	.card-columns & {
+		margin-top: 0;
+		margin-bottom: 2em;
+	}
+	&.page {
+		margin-bottom: 1em;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 2em;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Entry (header, content, footer)
+--------------------------------------------------------------*/
+.entry {
+	&-header {
+		margin-top: 28px;
+		.format-gallery &,
+		.format-link &,
+		.format-quote & {
+			margin-top: 15px;
+		}
+
+		.single &, .tm_pb_builder & {
+			margin-top: 0;
+		}
+
+		.related-posts & {
+			margin-top: 20px;
+		}
+
+	}
+	&-content {
+		> p > img.size-full {
+			max-width: calc(100% + 70px);
+			margin: 0 -35px;
+			.posts-list & {
+				max-width: calc(100% + 60px);
+				margin: 0 -30px;
+			}
+		}
+	}
+	&-title {
+		text-transform: uppercase;
+		margin: 5px 0 15px;
+		.single & {
+			text-transform: none;
+		}
+
+		&:first-child {
+			.entry-header & {
+				margin-top: 0;
+			}
+		}
+		.posts-list--default & {
+			@include media-breakpoint-up(lg) {
+				font-size: 30px;
+			}
+		}
+	}
+	&-meta {
+		.entry-summary + &,
+		.entry-content + & {
+			margin-top: 1em;
+		}
+
+		.single & {
+			margin-bottom: 40px;
+			*, .posted-by {
+				display: inline-block;
+				text-transform: none;
+				a {
+					text-transform: capitalize;
+				}
+			}
+			* + * {
+				margin-left: 5px;
+				position: relative;
+				&::before {
+					content: '';
+					height: 2px;
+					width: 2px;
+					border-radius: 50%;
+					background: red;
+					position: absolute;
+					top: 50%;
+					left: -5px;
+					@include translate(0, -50%);
+				}
+			}
+		}
+
+		.related-posts & {
+			margin-bottom: 10px;
+			@include font-size(0.75);
+			* + * {
+				margin-left: 0;
+				&::before {
+					display: none;
+				}
+			}
+		}
+	}
+	&-summary,
+	&-content {
+		.post-list__item & {
+			margin-top: 0;
+			p {
+				margin: 1em 0 0;
+			}
+		}
+	}
+
+	&-footer {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 5px;
+
+		.single & {
+			display: block;
+			margin-top: 25px;
+		}
+
+		.share-btns__list, .btn {
+			margin-top: 10px;
+		}
+
+		.related-posts & {
+			margin-top: 0;
+
+		}
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+
+		.posts-list & {
+			&::before, &::after {
+				display: none;
+			}
+		}
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Post attributes (thumbnail, meta)
+--------------------------------------------------------------*/
+.post {
+
+	&-thumbnail {
+		.single & {
+			margin: 0 -35px 1.3em;
+			img {
+				width: 100%;
+				margin-top: 0;
+			}
+		}
+
+		.posts-list--masonry-3-cols &,
+		.posts-list--masonry-2-cols &{
+			img {
+				width: 100%;
+			}
+		}
+
+		.related-posts & {
+			margin: 0;
+			a {
+				margin: 0 0;
+			}
+		}
+
+		&__format-link {
+			margin: -30px -30px 1.5em -30px;
+			height: 261px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.single & {
+				margin: 20px 0 1em 0;
+			}
+			@include media-breakpoint-down(xs) {
+				height: 150px;
+			}
+		}
+
+		&__link {
+			&.post-thumbnail--small {
+				display: block;
+				text-align: center;
+				margin: -30px -30px 1.5em -30px;
+				img {
+					width: 100%;
+				}
+
+				@include media-breakpoint-up(xl) {
+					float: left;
+					text-align: left;
+					margin: 0 30px 1em 0;
+				}
+			}
+		}
+		&__img {
+			display: inline-block;
+			vertical-align: top;
+		}
+		&--fullwidth {
+			.posts-list & {
+				display: block;
+				margin: -30px -30px 1.5em -30px;
+			}
+		}
+	}
+	&__cats {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 10px 0;
+		.single & {
+			position: relative;
+			top: auto;
+			left: auto;
+			margin-left: 30px;
+		}
+
+		.related-post & {
+			margin-left: 0;
+		}
+		a {
+			@include font-size(0.75);
+			line-height: 1;
+			text-transform: uppercase;
+			display: inline-block;
+			margin: 0 3px 3px 0;
+			padding: 11px 15px;
+			vertical-align: top;
+			text-decoration: none;
+		}
+		.post-thumbnail--fullwidth + & {
+			.has-post-thumbnail & {
+				position: absolute;
+				z-index: 99;
+				top: 10px;
+				margin: 0;
+				left: -20px;
+				@include media-breakpoint-only(md) {
+					position: relative;
+					top: auto;
+					left: auto;
+				}
+				@include media-breakpoint-down(xs) {
+					position: relative;
+					top: auto;
+					left: auto;
+				}
+			}
+		}
+		.post-format-wrap & {
+			position: absolute;
+			z-index: 99;
+			top: 10px;
+			left: 10px;
+			@include media-breakpoint-only(md) {
+				position: relative;
+				top: auto;
+				left: auto;
+			}
+			@include media-breakpoint-down(xs) {
+				position: relative;
+				top: auto;
+				left: auto;
+			}
+		}
+	}
+	&__date {
+		display: block;
+	}
+
+	&__date,
+	&__comments,
+	.posted-by {
+		@include font-size(0.75);
+		text-transform: uppercase;
+
+		.material-icons,
+		.fa {
+			font-size: 16px;
+			margin-right: 10px;
+			vertical-align: middle;
+			.invert & {
+				color: inherit;
+			}
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+
+	.posted-by + &__comments {
+		float: right;
+		@include media-breakpoint-between(md, lg) {
+			float: none;
+			display: block;
+		}
+		@include media-breakpoint-down(xs) {
+			float: none;
+			display: block;
+		}
+	}
+
+	&__tags {
+		margin-top: .5em;
+		@include font-size(0.875);
+		text-transform: uppercase;
+		.single-post & {
+			margin-top: 0;
+
+			@include media-breakpoint-up(sm) {
+				float: left;
+			}
+		}
+
+		.related-posts & {
+			@include font-size(0.75);
+		}
+	}
+	&ed-by__author {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.single {
+	img + .post__cats {
+		position: absolute;
+		z-index: 99;
+		top: 30px;
+		left: 30px;
+		margin-left: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+### Read More button
+--------------------------------------------------------------*/
+.btn {
+	.posts-list__item & {
+		padding: 0;
+		@include font-size(0.75);
+		text-transform: uppercase;
+		&__text {
+			display: none;
+			@include media-breakpoint-up(lg) {
+				display: block;
+			}
+		}
+		&__icon,
+		.material-icons,
+		.fa {
+			line-height: 46px;
+			width: 46px;
+			height: 46px;
+			color: inherit;
+		}
+	}
+	.posts-list__item & {
+		@include media-breakpoint-up(lg) {
+			padding: $button__indents;
+		}
+		&__icon,
+		.material-icons,
+		.fa {
+			display: block;
+			@include media-breakpoint-up(lg) {
+				display: none;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Related posts
+--------------------------------------------------------------*/
+.post {
+	&__date,
+	&__comments {
+		.single .related-posts & {
+			margin-right: 15px;
+			margin-left: 0;
+		}
+	}
+	&__cats {
+		.related-post & {
+			position: relative;
+			z-index: 99;
+			top: auto;
+			left: auto;
+			a {
+				padding: 5px;
+			}
+		}
+	}
+}
+
+.single .related-posts {
+	margin-bottom: 1em;
+	padding: 30px 30px;
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.entry-title {
+		margin-top: 0;
+	}
+	.related-post {
+		padding: 0 10px;
+		.post-thumbnail {
+			margin: 0 -10px;
+		}
+	}
+	.post-thumbnail__img {
+		width: 100%;
+		height: auto;
+		@include media-breakpoint-up(sm) {
+			width: auto;
+			height: auto;
+		}
+
+	}
+}
+
+/*--------------------------------------------------------------
+### Sticky Post
+--------------------------------------------------------------*/
+@import "sticky";

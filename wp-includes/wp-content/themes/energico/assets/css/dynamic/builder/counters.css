@@ -1,0 +1,12 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_counters .tm_pb_counter_title{
+	font-weight: $h5_font_weight;
+	font-size: $h5_font_size{px};
+	line-height: $h5_line_height;
+	font-family: @font_family( $h5_font_family );
+	color: $regular_h5_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_counters .tm_pb_counter_amount_number{
+	font-weight: $body_font_weight;
+	font-size: $body_font_size{px};
+}

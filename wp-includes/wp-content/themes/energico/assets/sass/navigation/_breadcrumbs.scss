@@ -1,0 +1,41 @@
+.breadcrumbs {
+	position: relative;
+	margin: 0 0 10px;
+
+	&__title {
+		.page-title {
+			margin: 0;
+			display: block;
+		}
+	}
+
+	&__items {
+		float: left;
+		@include font-size(0.75);
+		text-transform: uppercase;
+	}
+
+	&__browse {
+		float: left;
+		margin-right: .5em;
+	}
+
+	&__wrap {
+		float: left;
+		margin: 0;
+		@include media-breakpoint-up(lg) {
+			margin: .25em 0;
+		}
+	}
+
+	&__item {
+		float: left;
+		&-sep {
+			margin: 0 .5em;
+		}
+		&-link {
+			text-decoration: none;
+		}
+	}
+
+}

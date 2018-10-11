@@ -1,0 +1,14 @@
+a {
+	text-decoration: none;
+	@include transition(.3s ease all);
+	&:focus {
+		outline: none;
+	}
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+	h1 &, h2 &, h3 &, h4 &, h5 &, h6 & {
+		color: inherit;
+	}
+}

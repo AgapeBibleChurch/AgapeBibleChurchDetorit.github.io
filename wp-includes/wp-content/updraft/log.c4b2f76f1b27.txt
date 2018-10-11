@@ -1,0 +1,777 @@
+0000.001 (0) Opened log file at time: Sat, 06 Oct 2018 23:49:12 +0000 on https://localhost/wordpress
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.2 WP: 4.9.8 PHP: 7.2.5 (apache2handler, Windows NT JOSEPH-THINK 6.1 build 7601 (Windows 7 Professional Edition Service Pack 1) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.5 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.4M | 16M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 18408.7 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.032 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.066 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1538865845, seconds_ago=3907)
+0000.082 (0) Set semaphore last lock (fd) time to 2018-10-06 23:49:12
+0000.087 (0) Semaphore lock (fd) complete
+0000.130 (0) Backup run: resumption=0, nonce=c4b2f76f1b27, begun at=1538869752 (1s ago), job type=backup
+0000.169 (0) Scheduling a resumption (1) after 600 seconds (1538870353) in case this run gets aborted
+0000.240 (0) Checking if we have a zip executable available
+0000.248 (0) Creation of backups of directories: beginning
+0000.280 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.899 (0) Total entities for the zip file: 2115 directories, 9643 files (0 skipped as non-modified), 196.4 MB
+0005.452 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.718 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 100 files added (on-disk size: 377.2 KB)
+0005.790 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 200 files added (on-disk size: 377.2 KB)
+0005.852 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 300 files added (on-disk size: 377.2 KB)
+0005.908 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 400 files added (on-disk size: 377.2 KB)
+0005.949 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 500 files added (on-disk size: 377.2 KB)
+0005.986 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16.6 MB, 9643 files batched, 501 (502) added so far); re-opening (prior size: 377.2 KB)
+0011.009 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 9643 files batched, 82 (584) added so far); re-opening (prior size: 4743.7 KB)
+0013.925 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 3.8 s, rate: 6703.3 KB/s)
+0013.955 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.8219389915466, normalised_time=3.8190189012582, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=41185027)
+0013.996 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 600 files added (on-disk size: 8573.2 KB)
+0014.030 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 700 files added (on-disk size: 8573.2 KB)
+0014.082 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 800 files added (on-disk size: 8573.2 KB)
+0014.116 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 900 files added (on-disk size: 8573.2 KB)
+0014.150 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1000 files added (on-disk size: 8573.2 KB)
+0014.179 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.7 MB, 9643 files batched, 501 (1085) added so far); re-opening (prior size: 8573.2 KB)
+0015.480 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1100 files added (on-disk size: 11400.2 KB)
+0015.522 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1200 files added (on-disk size: 11400.2 KB)
+0015.584 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1300 files added (on-disk size: 11400.2 KB)
+0015.639 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1400 files added (on-disk size: 11400.2 KB)
+0015.693 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1500 files added (on-disk size: 11400.2 KB)
+0015.743 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.4 MB, 9643 files batched, 501 (1586) added so far); re-opening (prior size: 11400.2 KB)
+0022.384 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1600 files added (on-disk size: 16981.3 KB)
+0022.466 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1700 files added (on-disk size: 16981.3 KB)
+0022.535 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1800 files added (on-disk size: 16981.3 KB)
+0022.584 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 1900 files added (on-disk size: 16981.3 KB)
+0022.619 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2000 files added (on-disk size: 16981.3 KB)
+0022.650 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.4 MB, 9643 files batched, 501 (2087) added so far); re-opening (prior size: 16981.3 KB)
+0026.003 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2100 files added (on-disk size: 19744.5 KB)
+0026.062 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2200 files added (on-disk size: 19744.5 KB)
+0026.097 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2300 files added (on-disk size: 19744.5 KB)
+0026.143 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2400 files added (on-disk size: 19744.5 KB)
+0026.178 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2500 files added (on-disk size: 19744.5 KB)
+0026.223 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.7 MB, 9643 files batched, 501 (2588) added so far); re-opening (prior size: 19744.5 KB)
+0027.667 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2600 files added (on-disk size: 25078.6 KB)
+0027.703 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2700 files added (on-disk size: 25078.6 KB)
+0027.737 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2800 files added (on-disk size: 25078.6 KB)
+0027.772 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 2900 files added (on-disk size: 25078.6 KB)
+0027.806 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3000 files added (on-disk size: 25078.6 KB)
+0027.836 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 9643 files batched, 501 (3089) added so far); re-opening (prior size: 25078.6 KB)
+0030.608 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3100 files added (on-disk size: 27270.8 KB)
+0030.667 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3200 files added (on-disk size: 27270.8 KB)
+0030.737 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3300 files added (on-disk size: 27270.8 KB)
+0030.830 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3400 files added (on-disk size: 27270.8 KB)
+0030.940 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3500 files added (on-disk size: 27270.8 KB)
+0031.045 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.9 MB, 9643 files batched, 501 (3590) added so far); re-opening (prior size: 27270.8 KB)
+0032.584 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3600 files added (on-disk size: 35199.9 KB)
+0032.629 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3700 files added (on-disk size: 35199.9 KB)
+0032.663 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3800 files added (on-disk size: 35199.9 KB)
+0032.699 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 3900 files added (on-disk size: 35199.9 KB)
+0032.734 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4000 files added (on-disk size: 35199.9 KB)
+0032.791 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.1 MB, 9643 files batched, 501 (4091) added so far); re-opening (prior size: 35199.9 KB)
+0033.976 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4100 files added (on-disk size: 48880.6 KB)
+0034.020 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4200 files added (on-disk size: 48880.6 KB)
+0034.054 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4300 files added (on-disk size: 48880.6 KB)
+0034.088 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4400 files added (on-disk size: 48880.6 KB)
+0034.122 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4500 files added (on-disk size: 48880.6 KB)
+0034.210 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.7 MB, 9643 files batched, 501 (4592) added so far); re-opening (prior size: 48880.6 KB)
+0035.635 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4600 files added (on-disk size: 50689.4 KB)
+0035.683 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4700 files added (on-disk size: 50689.4 KB)
+0035.735 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4800 files added (on-disk size: 50689.4 KB)
+0035.769 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 4900 files added (on-disk size: 50689.4 KB)
+0035.804 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5000 files added (on-disk size: 50689.4 KB)
+0035.846 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.9 MB, 9643 files batched, 501 (5093) added so far); re-opening (prior size: 50689.4 KB)
+0036.949 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5100 files added (on-disk size: 53007.2 KB)
+0036.994 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5200 files added (on-disk size: 53007.2 KB)
+0037.066 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5300 files added (on-disk size: 53007.2 KB)
+0037.107 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5400 files added (on-disk size: 53007.2 KB)
+0037.157 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5500 files added (on-disk size: 53007.2 KB)
+0037.203 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 9643 files batched, 501 (5594) added so far); re-opening (prior size: 53007.2 KB)
+0038.034 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5600 files added (on-disk size: 54380.7 KB)
+0038.072 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5700 files added (on-disk size: 54380.7 KB)
+0038.105 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5800 files added (on-disk size: 54380.7 KB)
+0038.152 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 5900 files added (on-disk size: 54380.7 KB)
+0038.186 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6000 files added (on-disk size: 54380.7 KB)
+0038.218 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.2 MB, 9643 files batched, 501 (6095) added so far); re-opening (prior size: 54380.7 KB)
+0039.498 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6100 files added (on-disk size: 57140.5 KB)
+0039.531 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6200 files added (on-disk size: 57140.5 KB)
+0039.613 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6300 files added (on-disk size: 57140.5 KB)
+0039.724 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6400 files added (on-disk size: 57140.5 KB)
+0039.773 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6500 files added (on-disk size: 57140.5 KB)
+0039.815 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.9 MB, 9643 files batched, 501 (6596) added so far); re-opening (prior size: 57140.5 KB)
+0041.068 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6600 files added (on-disk size: 59764.4 KB)
+0041.350 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6700 files added (on-disk size: 59764.4 KB)
+0041.445 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6800 files added (on-disk size: 59764.4 KB)
+0041.503 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 6900 files added (on-disk size: 59764.4 KB)
+0041.538 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7000 files added (on-disk size: 59764.4 KB)
+0041.577 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16.6 MB, 9643 files batched, 501 (7097) added so far); re-opening (prior size: 59764.4 KB)
+0043.895 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7100 files added (on-disk size: 64269.2 KB)
+0043.929 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7200 files added (on-disk size: 64269.2 KB)
+0043.980 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7300 files added (on-disk size: 64269.2 KB)
+0044.046 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7400 files added (on-disk size: 64269.2 KB)
+0044.079 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7500 files added (on-disk size: 64269.2 KB)
+0044.115 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 9643 files batched, 501 (7598) added so far); re-opening (prior size: 64269.2 KB)
+0044.942 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7600 files added (on-disk size: 65158.8 KB)
+0044.979 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7700 files added (on-disk size: 65158.8 KB)
+0045.020 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7800 files added (on-disk size: 65158.8 KB)
+0045.081 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 7900 files added (on-disk size: 65158.8 KB)
+0045.114 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8000 files added (on-disk size: 65158.8 KB)
+0045.147 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 9643 files batched, 501 (8099) added so far); re-opening (prior size: 65158.8 KB)
+0046.121 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8100 files added (on-disk size: 66406.7 KB)
+0046.162 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8200 files added (on-disk size: 66406.7 KB)
+0046.197 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8300 files added (on-disk size: 66406.7 KB)
+0046.231 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8400 files added (on-disk size: 66406.7 KB)
+0046.266 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8500 files added (on-disk size: 66406.7 KB)
+0046.300 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 9643 files batched, 501 (8600) added so far); re-opening (prior size: 66406.7 KB)
+0046.929 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8600 files added (on-disk size: 68027.6 KB)
+0047.088 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8700 files added (on-disk size: 68027.6 KB)
+0047.151 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8800 files added (on-disk size: 68027.6 KB)
+0047.234 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 8900 files added (on-disk size: 68027.6 KB)
+0047.306 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9000 files added (on-disk size: 68027.6 KB)
+0047.386 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9100 files added (on-disk size: 68027.6 KB)
+0047.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 9643 files batched, 501 (9101) added so far); re-opening (prior size: 68027.6 KB)
+0049.772 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9200 files added (on-disk size: 71139 KB)
+0049.875 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9300 files added (on-disk size: 71139 KB)
+0050.020 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9400 files added (on-disk size: 71139 KB)
+0050.171 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9500 files added (on-disk size: 71139 KB)
+0050.302 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip.tmp: 9600 files added (on-disk size: 71139 KB)
+0050.322 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 9643 files batched, 501 (9602) added so far); re-opening (prior size: 71139 KB)
+0053.147 (0) Created plugins zip (0) - 73515.1 KB in 52.9 s (1390.8 KB/s) (sha1: 82cfa551ea6d783459d412c8166fcfb44882132c, sha256: 85f0d77f4e4e27eaa2f594e0fd0a4d8d8d51d25447dd44be317a69e5534d6209)
+0053.162 (0) Beginning creation of dump of themes (split every: 400 MB)
+0053.419 (0) Total entities for the zip file: 164 directories, 445 files (0 skipped as non-modified), 7.5 MB
+0053.451 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0053.481 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0053.525 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0053.557 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0054.281 (0) Created themes zip (0) - 5184.7 KB in 1.1 s (4854.3 KB/s) (sha1: 2eddb0baa9f0d10728c95681e4853fb6bd3603eb, sha256: a1afeaf301415b95a3b7c1eb38c864b50759539f883c63f541fb7c48d02601dd)
+0054.300 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0054.303 (0) Looking for candidates to backup in: C:\XAMPP\Xampp\apps\wordpress\htdocs/wp-content/uploads
+0054.307 (0) finding files: .shortpixel-q-1: adding to list (1)
+0054.313 (0) finding files: 2012: adding to list (2)
+0054.320 (0) finding files: 2018: adding to list (3)
+0054.352 (0) finding files: elementor: adding to list (4)
+0054.356 (0) finding files: leaflet-maps-marker-icons: adding to list (5)
+0054.358 (0) finding files: master-slider: adding to list (6)
+0054.362 (0) finding files: maxmegamenu: adding to list (7)
+0054.365 (0) finding files: sass: adding to list (8)
+0054.371 (0) finding files: sermons: adding to list (9)
+0054.375 (0) finding files: ShortpixelBackups: adding to list (10)
+0054.380 (0) finding files: siteorigin-widgets: adding to list (11)
+0054.383 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0054.745 (0) Total entities for the zip file: 21 directories, 870 files (0 skipped as non-modified), 129.3 MB
+0054.815 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0054.856 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0054.966 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0055.437 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0055.721 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 39.3 MB added on this batch (39.3 MB, 870 files batched, 446 (446) added so far); re-opening (prior size: 0 KB)
+0056.129 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 19857.8 KB/s)
+0056.184 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0263528823853, normalised_time=2.0253923891761, max_time=-1, data points known=0, old_max_bytes=41185027, new_max_bytes=122006068)
+0056.202 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 500 files added (on-disk size: 40314.1 KB)
+0056.235 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 600 files added (on-disk size: 40314.1 KB)
+0056.283 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 700 files added (on-disk size: 40314.1 KB)
+0056.622 (0) Zip: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip.tmp: 800 files added (on-disk size: 40314.1 KB)
+0060.444 (0) Created uploads zip (0) - 132004.4 KB in 6.1 s (21799.6 KB/s) (sha1: 69d8e38adaeb027fc469302bb853105d4b51a85a, sha256: 20e6bb144dffc32b6a9f242d5f743d2fb6fe0d851238e2680bb5e6276f209f81)
+0060.530 (0) Beginning backup of other directories found in the content directory (index: 0)
+0060.626 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0061.071 (0) Looking for candidates to backup in: C:\XAMPP\Xampp\apps\wordpress\htdocs/wp-content
+0061.304 (0) finding files: .git: adding to list (1)
+0062.081 (0) finding files: bible-plus-cache: adding to list (2)
+0062.364 (0) finding files: cache: skipping: excluded by options
+0063.365 (0) finding files: index.php: adding to list (3)
+0063.392 (0) finding files: plugins: skipping: this is the plugins directory
+0063.515 (0) finding files: themes: skipping: this is the themes directory
+0063.542 (0) finding files: updraft: skipping: this is the updraft directory
+0063.570 (0) finding files: upgrade: skipping: excluded by options
+0063.602 (0) finding files: uploads: skipping: this is the uploads directory
+0064.014 (0) Total entities for the zip file: 10 directories, 16 files (0 skipped as non-modified), 0 MB
+0064.354 (0) Created others zip (0) - 11.7 KB in 0.4 s (27.8 KB/s) (sha1: 0f6a5db6eb714877019c537738b0dec5c694bc36, sha256: dd719de761b8948d3ea12a8a9c580818dc9cc35e6c51664e7ecd2a3439e6bf4c)
+0064.525 (0) Saving backup status to database (elements: 8)
+0064.538 (0) Beginning creation of database dump (WordPress DB)
+0064.596 (0) Table wp_options: Total expected rows (approximate): 1082
+0064.702 (0) Table wp_options: Total rows added: 1096 in 0.09 seconds
+0064.823 (0) Table wp_options: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_options.table.gz - 163 KB)
+0065.876 (0) Table wp_users: Total expected rows (approximate): 0
+0065.965 (0) Table wp_users: Total rows added: 1 in 0.01 seconds
+0066.021 (0) Table wp_users: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_users.table.gz - 0.6 KB)
+0066.188 (0) Table wp_usermeta: Total expected rows (approximate): 44
+0066.221 (0) Table wp_usermeta: Total rows added: 47 in 0.01 seconds
+0066.350 (0) Table wp_usermeta: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_usermeta.table.gz - 2.6 KB)
+0066.511 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0066.583 (0) Table wp_commentmeta: Total rows added: 0 in 0.04 seconds
+0067.689 (0) Table wp_commentmeta: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0068.258 (0) Table wp_comments: Total expected rows (approximate): 0
+0068.433 (0) Table wp_comments: Total rows added: 1 in 0.13 seconds
+0068.501 (0) Table wp_comments: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_comments.table.gz - 0.7 KB)
+0069.415 (0) Table wp_links: Total expected rows (approximate): 0
+0069.467 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0069.570 (0) Table wp_links: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_links.table.gz - 0.4 KB)
+0070.336 (0) Table wp_postmeta: Total expected rows (approximate): 1160
+0091.853 (0) Table wp_postmeta: Total rows added: 1107 in 21.46 seconds
+0091.915 (0) Table wp_postmeta: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_postmeta.table.gz - 1182.4 KB)
+0091.983 (0) Table wp_posts: Total expected rows (approximate): 288
+0093.505 (0) Table wp_posts: Total rows added: 335 in 1.52 seconds
+0093.562 (0) Table wp_posts: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_posts.table.gz - 235.7 KB)
+0093.623 (0) Table wp_term_relationships: Total expected rows (approximate): 32
+0093.632 (0) Table wp_term_relationships: Total rows added: 34 in 0.01 seconds
+0093.647 (0) Table wp_term_relationships: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0093.698 (0) Table wp_term_taxonomy: Total expected rows (approximate): 10
+0093.722 (0) Table wp_term_taxonomy: Total rows added: 11 in 0.00 seconds
+0093.727 (0) Table wp_term_taxonomy: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0093.772 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0093.809 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0093.814 (0) Table wp_termmeta: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_termmeta.table.gz - 0.4 KB)
+0093.850 (0) Table wp_terms: Total expected rows (approximate): 10
+0093.860 (0) Table wp_terms: Total rows added: 11 in 0.00 seconds
+0093.873 (0) Table wp_terms: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_terms.table.gz - 0.5 KB)
+0093.907 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 128
+0093.928 (0) Table wp_yoast_seo_links: Total rows added: 128 in 0.01 seconds
+0093.942 (0) Table wp_yoast_seo_links: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_yoast_seo_links.table.gz - 1 KB)
+0094.027 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 345
+0094.198 (0) Table wp_yoast_seo_meta: Total rows added: 355 in 0.10 seconds
+0094.205 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_yoast_seo_meta.table.gz - 1.2 KB)
+0094.311 (0) Table wp_amdbible_devos: Total expected rows (approximate): 732
+0094.380 (0) Table wp_amdbible_devos: Total rows added: 732 in 0.06 seconds
+0094.386 (0) Table wp_amdbible_devos: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_devos.table.gz - 3.9 KB)
+0094.435 (0) Table wp_amdbible_key_abbr_eng: Total expected rows (approximate): 415
+0094.467 (0) Table wp_amdbible_key_abbr_eng: Total rows added: 415 in 0.01 seconds
+0094.476 (0) Table wp_amdbible_key_abbr_eng: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_key_abbr_eng.table.gz - 3 KB)
+0094.532 (0) Table wp_amdbible_key_eng: Total expected rows (approximate): 66
+0094.548 (0) Table wp_amdbible_key_eng: Total rows added: 66 in 0.01 seconds
+0094.555 (0) Table wp_amdbible_key_eng: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_key_eng.table.gz - 0.9 KB)
+0094.587 (0) Table wp_amdbible_key_genre_eng: Total expected rows (approximate): 8
+0094.597 (0) Table wp_amdbible_key_genre_eng: Total rows added: 8 in 0.01 seconds
+0094.601 (0) Table wp_amdbible_key_genre_eng: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_key_genre_eng.table.gz - 0.4 KB)
+0094.624 (0) Table wp_amdbible_kjv: Total expected rows (approximate): 31598
+0095.997 (0) Table wp_amdbible_kjv: Total rows added: 31102 in 1.37 seconds
+0096.117 (0) Table wp_amdbible_kjv: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_kjv.table.gz - 149.5 KB)
+0096.183 (0) Table wp_amdbible_plans: Total expected rows (approximate): 732
+0096.265 (0) Table wp_amdbible_plans: Total rows added: 732 in 0.06 seconds
+0096.299 (0) Table wp_amdbible_plans: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_plans.table.gz - 11.6 KB)
+0096.362 (0) Table wp_amdbible_plans_info: Total expected rows (approximate): 2
+0096.392 (0) Table wp_amdbible_plans_info: Total rows added: 2 in 0.00 seconds
+0096.406 (0) Table wp_amdbible_plans_info: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_plans_info.table.gz - 0.7 KB)
+0096.471 (0) Table wp_em_bookings: Total expected rows (approximate): 0
+0096.500 (0) Table wp_em_bookings: Total rows added: 0 in 0.00 seconds
+0096.514 (0) Table wp_em_bookings: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_bookings.table.gz - 0.5 KB)
+0096.580 (0) Table wp_em_events: Total expected rows (approximate): 0
+0096.603 (0) Table wp_em_events: Total rows added: 1 in 0.00 seconds
+0096.617 (0) Table wp_em_events: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_events.table.gz - 0.8 KB)
+0096.685 (0) Table wp_em_locations: Total expected rows (approximate): 0
+0096.741 (0) Table wp_em_locations: Total rows added: 1 in 0.01 seconds
+0096.789 (0) Table wp_em_locations: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_locations.table.gz - 0.6 KB)
+0096.945 (0) Table wp_em_meta: Total expected rows (approximate): 0
+0096.972 (0) Table wp_em_meta: Total rows added: 0 in 0.00 seconds
+0096.977 (0) Table wp_em_meta: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_meta.table.gz - 0.4 KB)
+0097.029 (0) Table wp_em_tickets: Total expected rows (approximate): 0
+0097.039 (0) Table wp_em_tickets: Total rows added: 1 in 0.01 seconds
+0097.044 (0) Table wp_em_tickets: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_tickets.table.gz - 0.5 KB)
+0097.083 (0) Table wp_em_tickets_bookings: Total expected rows (approximate): 0
+0097.107 (0) Table wp_em_tickets_bookings: Total rows added: 0 in 0.00 seconds
+0097.112 (0) Table wp_em_tickets_bookings: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_tickets_bookings.table.gz - 0.3 KB)
+0097.154 (0) Table wp_ewwwio_images: Total expected rows (approximate): 0
+0097.187 (0) Table wp_ewwwio_images: Total rows added: 0 in 0.03 seconds
+0097.192 (0) Table wp_ewwwio_images: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_ewwwio_images.table.gz - 0.5 KB)
+0097.244 (0) Table wp_leafletmapsmarker_layers: Total expected rows (approximate): 2
+0097.251 (0) Table wp_leafletmapsmarker_layers: Total rows added: 2 in 0.00 seconds
+0097.255 (0) Table wp_leafletmapsmarker_layers: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_leafletmapsmarker_layers.table.gz - 0.8 KB)
+0097.289 (0) Table wp_leafletmapsmarker_markers: Total expected rows (approximate): 1
+0097.296 (0) Table wp_leafletmapsmarker_markers: Total rows added: 1 in 0.00 seconds
+0097.304 (0) Table wp_leafletmapsmarker_markers: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_leafletmapsmarker_markers.table.gz - 0.8 KB)
+0097.338 (0) Table wp_masterslider_options: Total expected rows (approximate): 2
+0097.357 (0) Table wp_masterslider_options: Total rows added: 2 in 0.01 seconds
+0097.361 (0) Table wp_masterslider_options: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_masterslider_options.table.gz - 0.4 KB)
+0097.402 (0) Table wp_masterslider_sliders: Total expected rows (approximate): 0
+0097.410 (0) Table wp_masterslider_sliders: Total rows added: 1 in 0.01 seconds
+0097.414 (0) Table wp_masterslider_sliders: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_masterslider_sliders.table.gz - 2.1 KB)
+0097.452 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 0
+0097.460 (0) Table wp_nextend2_image_storage: Total rows added: 0 in 0.01 seconds
+0097.464 (0) Table wp_nextend2_image_storage: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_image_storage.table.gz - 0.3 KB)
+0097.507 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 2
+0097.515 (0) Table wp_nextend2_section_storage: Total rows added: 2 in 0.01 seconds
+0097.518 (0) Table wp_nextend2_section_storage: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_section_storage.table.gz - 0.5 KB)
+0097.560 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0097.575 (0) Table wp_nextend2_smartslider3_generators: Total rows added: 0 in 0.00 seconds
+0097.580 (0) Table wp_nextend2_smartslider3_generators: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0097.616 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 2
+0097.625 (0) Table wp_nextend2_smartslider3_sliders: Total rows added: 2 in 0.01 seconds
+0097.628 (0) Table wp_nextend2_smartslider3_sliders: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_sliders.table.gz - 2.4 KB)
+0097.646 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0097.653 (0) Table wp_nextend2_smartslider3_sliders_xref: Total rows added: 1 in 0.00 seconds
+0097.657 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz - 0.3 KB)
+0097.695 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 3
+0097.823 (0) Table wp_nextend2_smartslider3_slides: Total rows added: 4 in 0.01 seconds
+0097.827 (0) Table wp_nextend2_smartslider3_slides: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_slides.table.gz - 2.7 KB)
+0097.913 (0) Table wp_responsive_menu: Total expected rows (approximate): 276
+0097.924 (0) Table wp_responsive_menu: Total rows added: 276 in 0.01 seconds
+0097.927 (0) Table wp_responsive_menu: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_responsive_menu.table.gz - 2.3 KB)
+0097.976 (0) Table wp_sb_books: Total expected rows (approximate): 66
+0097.984 (0) Table wp_sb_books: Total rows added: 66 in 0.01 seconds
+0097.987 (0) Table wp_sb_books: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_books.table.gz - 0.8 KB)
+0098.011 (0) Table wp_sb_books_sermons: Total expected rows (approximate): 2
+0098.034 (0) Table wp_sb_books_sermons: Total rows added: 2 in 0.00 seconds
+0098.047 (0) Table wp_sb_books_sermons: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_books_sermons.table.gz - 0.4 KB)
+0098.089 (0) Table wp_sb_preachers: Total expected rows (approximate): 2
+0098.098 (0) Table wp_sb_preachers: Total rows added: 1 in 0.01 seconds
+0098.117 (0) Table wp_sb_preachers: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_preachers.table.gz - 0.3 KB)
+0098.158 (0) Table wp_sb_series: Total expected rows (approximate): 0
+0098.166 (0) Table wp_sb_series: Total rows added: 1 in 0.01 seconds
+0098.170 (0) Table wp_sb_series: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_series.table.gz - 0.3 KB)
+0098.420 (0) Table wp_sb_sermons: Total expected rows (approximate): 0
+0098.427 (0) Table wp_sb_sermons: Total rows added: 1 in 0.00 seconds
+0098.431 (0) Table wp_sb_sermons: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_sermons.table.gz - 0.5 KB)
+0098.464 (0) Table wp_sb_sermons_tags: Total expected rows (approximate): 1
+0098.472 (0) Table wp_sb_sermons_tags: Total rows added: 1 in 0.00 seconds
+0098.475 (0) Table wp_sb_sermons_tags: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_sermons_tags.table.gz - 0.3 KB)
+0098.526 (0) Table wp_sb_services: Total expected rows (approximate): 1
+0098.546 (0) Table wp_sb_services: Total rows added: 1 in 0.00 seconds
+0098.560 (0) Table wp_sb_services: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_services.table.gz - 0.3 KB)
+0098.595 (0) Table wp_sb_stuff: Total expected rows (approximate): 0
+0098.602 (0) Table wp_sb_stuff: Total rows added: 1 in 0.00 seconds
+0098.605 (0) Table wp_sb_stuff: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_stuff.table.gz - 0.4 KB)
+0098.626 (0) Table wp_sb_tags: Total expected rows (approximate): 0
+0098.639 (0) Table wp_sb_tags: Total rows added: 1 in 0.01 seconds
+0098.643 (0) Table wp_sb_tags: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_tags.table.gz - 0.3 KB)
+0098.706 (0) Table wp_simply_static_pages: Total expected rows (approximate): 1010
+0099.058 (0) Table wp_simply_static_pages: Total rows added: 1027 in 0.16 seconds
+0099.064 (0) Table wp_simply_static_pages: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_simply_static_pages.table.gz - 16.4 KB)
+0099.109 (0) Table wp_sms_send: Total expected rows (approximate): 0
+0099.117 (0) Table wp_sms_send: Total rows added: 0 in 0.00 seconds
+0099.120 (0) Table wp_sms_send: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sms_send.table.gz - 0.3 KB)
+0099.147 (0) Table wp_sms_subscribes: Total expected rows (approximate): 0
+0099.155 (0) Table wp_sms_subscribes: Total rows added: 0 in 0.01 seconds
+0099.158 (0) Table wp_sms_subscribes: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sms_subscribes.table.gz - 0.3 KB)
+0099.185 (0) Table wp_sms_subscribes_group: Total expected rows (approximate): 0
+0099.192 (0) Table wp_sms_subscribes_group: Total rows added: 0 in 0.00 seconds
+0099.195 (0) Table wp_sms_subscribes_group: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sms_subscribes_group.table.gz - 0.3 KB)
+0099.243 (0) Table wp_totalsoft_galleryv_dbt: Total expected rows (approximate): 18
+0099.251 (0) Table wp_totalsoft_galleryv_dbt: Total rows added: 18 in 0.01 seconds
+0099.254 (0) Table wp_totalsoft_galleryv_dbt: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_dbt.table.gz - 0.5 KB)
+0099.281 (0) Table wp_totalsoft_galleryv_dbt_1: Total expected rows (approximate): 18
+0099.293 (0) Table wp_totalsoft_galleryv_dbt_1: Total rows added: 18 in 0.01 seconds
+0099.296 (0) Table wp_totalsoft_galleryv_dbt_1: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_dbt_1.table.gz - 2.1 KB)
+0099.334 (0) Table wp_totalsoft_galleryv_dbt_2: Total expected rows (approximate): 18
+0099.344 (0) Table wp_totalsoft_galleryv_dbt_2: Total rows added: 18 in 0.01 seconds
+0099.348 (0) Table wp_totalsoft_galleryv_dbt_2: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_dbt_2.table.gz - 1.6 KB)
+0099.370 (0) Table wp_totalsoft_galleryv_id: Total expected rows (approximate): 0
+0099.377 (0) Table wp_totalsoft_galleryv_id: Total rows added: 2 in 0.00 seconds
+0099.380 (0) Table wp_totalsoft_galleryv_id: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_id.table.gz - 0.4 KB)
+0099.418 (0) Table wp_totalsoft_galleryv_manager: Total expected rows (approximate): 0
+0099.427 (0) Table wp_totalsoft_galleryv_manager: Total rows added: 1 in 0.01 seconds
+0099.432 (0) Table wp_totalsoft_galleryv_manager: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_manager.table.gz - 0.4 KB)
+0099.563 (0) Table wp_totalsoft_galleryv_videos: Total expected rows (approximate): 2
+0099.574 (0) Table wp_totalsoft_galleryv_videos: Total rows added: 2 in 0.01 seconds
+0099.581 (0) Table wp_totalsoft_galleryv_videos: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_videos.table.gz - 0.6 KB)
+0099.644 (0) Table wp_totalsoft_new_plugin: Total expected rows (approximate): 2
+0099.651 (0) Table wp_totalsoft_new_plugin: Total rows added: 2 in 0.00 seconds
+0099.683 (0) Table wp_totalsoft_new_plugin: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_new_plugin.table.gz - 0.4 KB)
+0099.751 (0) Table wp_tp_image_optimizer: Total expected rows (approximate): 41
+0099.920 (0) Table wp_tp_image_optimizer: Total rows added: 41 in 0.01 seconds
+0099.966 (0) Table wp_tp_image_optimizer: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_tp_image_optimizer.table.gz - 0.9 KB)
+0100.056 (0) Table wp_uji_counter: Total expected rows (approximate): 0
+0100.092 (0) Table wp_uji_counter: Total rows added: 0 in 0.00 seconds
+0100.097 (0) Table wp_uji_counter: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_uji_counter.table.gz - 0.3 KB)
+0100.153 (0) Table wp_uji_subscriptions: Total expected rows (approximate): 0
+0100.162 (0) Table wp_uji_subscriptions: Total rows added: 0 in 0.00 seconds
+0100.166 (0) Table wp_uji_subscriptions: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_uji_subscriptions.table.gz - 0.4 KB)
+0100.218 (0) Table wp_waiting: Total expected rows (approximate): 0
+0100.225 (0) Table wp_waiting: Total rows added: 1 in 0.00 seconds
+0100.229 (0) Table wp_waiting: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_waiting.table.gz - 0.8 KB)
+0100.277 (0) Table wp_way2enjoy_dir_images: Total expected rows (approximate): 0
+0100.286 (0) Table wp_way2enjoy_dir_images: Total rows added: 0 in 0.01 seconds
+0100.316 (0) Table wp_way2enjoy_dir_images: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_way2enjoy_dir_images.table.gz - 0.4 KB)
+0100.429 (0) Table wp_wow_fmp: Total expected rows (approximate): 0
+0100.451 (0) Table wp_wow_fmp: Total rows added: 1 in 0.00 seconds
+0100.465 (0) Table wp_wow_fmp: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wow_fmp.table.gz - 0.8 KB)
+0100.508 (0) Table wp_wpgmza: Total expected rows (approximate): 2
+0100.517 (0) Table wp_wpgmza: Total rows added: 1 in 0.01 seconds
+0100.521 (0) Table wp_wpgmza: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza.table.gz - 0.6 KB)
+0100.562 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0100.570 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.01 seconds
+0100.573 (0) Table wp_wpgmza_categories: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_categories.table.gz - 0.3 KB)
+0100.607 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0100.616 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.01 seconds
+0100.619 (0) Table wp_wpgmza_category_maps: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_category_maps.table.gz - 0.3 KB)
+0100.667 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0100.694 (0) Table wp_wpgmza_circles: Total rows added: 0 in 0.01 seconds
+0100.759 (0) Table wp_wpgmza_circles: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_circles.table.gz - 0.3 KB)
+0100.899 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 0
+0100.926 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0100.970 (0) Table wp_wpgmza_maps: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_maps.table.gz - 1 KB)
+0101.129 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0101.147 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0101.151 (0) Table wp_wpgmza_polygon: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0101.202 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0101.209 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0101.214 (0) Table wp_wpgmza_polylines: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0101.330 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0101.352 (0) Table wp_wpgmza_rectangles: Total rows added: 0 in 0.00 seconds
+0101.359 (0) Table wp_wpgmza_rectangles: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_rectangles.table.gz - 0.3 KB)
+0101.443 (0) Table wp_wpio_images: Total expected rows (approximate): 55
+0101.453 (0) Table wp_wpio_images: Total rows added: 62 in 0.01 seconds
+0101.468 (0) Table wp_wpio_images: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpio_images.table.gz - 3.5 KB)
+0101.549 (0) Table wp_wpio_listimages: Total expected rows (approximate): 578
+0101.620 (0) Table wp_wpio_listimages: Total rows added: 610 in 0.05 seconds
+0101.640 (0) Table wp_wpio_listimages: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpio_listimages.table.gz - 21.4 KB)
+0101.703 (0) Table wp_wpio_queue: Total expected rows (approximate): 0
+0101.746 (0) Table wp_wpio_queue: Total rows added: 0 in 0.03 seconds
+0101.907 (0) Table wp_wpio_queue: finishing file (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpio_queue.table.gz - 0.3 KB)
+0101.969 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_options.table.gz (1/76): adding to final database dump
+0102.038 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_users.table.gz (2/76): adding to final database dump
+0102.070 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_usermeta.table.gz (3/76): adding to final database dump
+0102.081 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_commentmeta.table.gz (4/76): adding to final database dump
+0102.138 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_comments.table.gz (5/76): adding to final database dump
+0102.143 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_links.table.gz (6/76): adding to final database dump
+0102.150 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_postmeta.table.gz (7/76): adding to final database dump
+0102.855 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_posts.table.gz (8/76): adding to final database dump
+0102.994 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_term_relationships.table.gz (9/76): adding to final database dump
+0102.997 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_term_taxonomy.table.gz (10/76): adding to final database dump
+0103.001 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_termmeta.table.gz (11/76): adding to final database dump
+0103.028 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_terms.table.gz (12/76): adding to final database dump
+0103.041 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_yoast_seo_links.table.gz (13/76): adding to final database dump
+0103.044 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_yoast_seo_meta.table.gz (14/76): adding to final database dump
+0103.057 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_devos.table.gz (15/76): adding to final database dump
+0103.062 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_key_abbr_eng.table.gz (16/76): adding to final database dump
+0103.065 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_key_eng.table.gz (17/76): adding to final database dump
+0103.069 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_key_genre_eng.table.gz (18/76): adding to final database dump
+0103.071 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_kjv.table.gz (19/76): adding to final database dump
+0103.174 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_plans.table.gz (20/76): adding to final database dump
+0103.182 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_amdbible_plans_info.table.gz (21/76): adding to final database dump
+0103.184 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_bookings.table.gz (22/76): adding to final database dump
+0103.187 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_events.table.gz (23/76): adding to final database dump
+0103.190 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_locations.table.gz (24/76): adding to final database dump
+0103.193 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_meta.table.gz (25/76): adding to final database dump
+0103.216 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_tickets.table.gz (26/76): adding to final database dump
+0103.219 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_em_tickets_bookings.table.gz (27/76): adding to final database dump
+0103.239 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_ewwwio_images.table.gz (28/76): adding to final database dump
+0103.248 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_leafletmapsmarker_layers.table.gz (29/76): adding to final database dump
+0103.252 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_leafletmapsmarker_markers.table.gz (30/76): adding to final database dump
+0103.255 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_masterslider_options.table.gz (31/76): adding to final database dump
+0103.264 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_masterslider_sliders.table.gz (32/76): adding to final database dump
+0103.274 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_image_storage.table.gz (33/76): adding to final database dump
+0103.283 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_section_storage.table.gz (34/76): adding to final database dump
+0103.289 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_generators.table.gz (35/76): adding to final database dump
+0103.294 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_sliders.table.gz (36/76): adding to final database dump
+0103.299 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (37/76): adding to final database dump
+0103.305 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_nextend2_smartslider3_slides.table.gz (38/76): adding to final database dump
+0103.312 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_responsive_menu.table.gz (39/76): adding to final database dump
+0103.316 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_books.table.gz (40/76): adding to final database dump
+0103.319 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_books_sermons.table.gz (41/76): adding to final database dump
+0103.322 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_preachers.table.gz (42/76): adding to final database dump
+0103.324 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_series.table.gz (43/76): adding to final database dump
+0103.327 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_sermons.table.gz (44/76): adding to final database dump
+0103.330 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_sermons_tags.table.gz (45/76): adding to final database dump
+0103.342 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_services.table.gz (46/76): adding to final database dump
+0103.345 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_stuff.table.gz (47/76): adding to final database dump
+0103.348 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sb_tags.table.gz (48/76): adding to final database dump
+0103.358 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_simply_static_pages.table.gz (49/76): adding to final database dump
+0103.379 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sms_send.table.gz (50/76): adding to final database dump
+0103.382 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sms_subscribes.table.gz (51/76): adding to final database dump
+0103.384 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_sms_subscribes_group.table.gz (52/76): adding to final database dump
+0103.387 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_dbt.table.gz (53/76): adding to final database dump
+0103.390 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_dbt_1.table.gz (54/76): adding to final database dump
+0103.394 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_dbt_2.table.gz (55/76): adding to final database dump
+0103.397 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_id.table.gz (56/76): adding to final database dump
+0103.400 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_manager.table.gz (57/76): adding to final database dump
+0103.403 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_galleryv_videos.table.gz (58/76): adding to final database dump
+0103.406 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_totalsoft_new_plugin.table.gz (59/76): adding to final database dump
+0103.409 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_tp_image_optimizer.table.gz (60/76): adding to final database dump
+0103.412 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_uji_counter.table.gz (61/76): adding to final database dump
+0103.414 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_uji_subscriptions.table.gz (62/76): adding to final database dump
+0103.420 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_waiting.table.gz (63/76): adding to final database dump
+0103.423 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_way2enjoy_dir_images.table.gz (64/76): adding to final database dump
+0103.426 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wow_fmp.table.gz (65/76): adding to final database dump
+0103.442 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza.table.gz (66/76): adding to final database dump
+0103.445 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_categories.table.gz (67/76): adding to final database dump
+0103.448 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_category_maps.table.gz (68/76): adding to final database dump
+0103.452 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_circles.table.gz (69/76): adding to final database dump
+0103.459 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_maps.table.gz (70/76): adding to final database dump
+0103.463 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_polygon.table.gz (71/76): adding to final database dump
+0103.466 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_polylines.table.gz (72/76): adding to final database dump
+0103.468 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpgmza_rectangles.table.gz (73/76): adding to final database dump
+0103.472 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpio_images.table.gz (74/76): adding to final database dump
+0103.478 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpio_listimages.table.gz (75/76): adding to final database dump
+0103.486 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db-table-wp_wpio_queue.table.gz (76/76): adding to final database dump
+0103.489 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz: finished writing out complete database file (1808 KB)
+0103.543 (0) Total database tables backed up: 76 (backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz, size: 1861793, sha256)
+0103.557 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0103.560 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0103.564 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0103.566 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-others.zip: others: This file has not yet been successfully uploaded: will queue
+0103.569 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz: db: This file has not yet been successfully uploaded: will queue
+0103.571 (0) Saving backup history. Total backup size: 207.6 MB
+0103.580 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0103.588 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0103.591 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-41c594a42c107dceca7510f6add0099a)
+0106.592 (0) Google Drive quota usage: used=10575 MB, total=30720 MB, available=20145 MB
+0106.607 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip: Attempting to upload to Google Drive (into folder id: 1qKmatwYlqCFDNH8VBZW_5TwE7B4IeQU4)
+0108.820 (0) Googledrive chunked upload: 1.4 % uploaded (1048576)
+0110.500 (0) Googledrive chunked upload: 2.8 % uploaded (2097152)
+0112.283 (0) Googledrive chunked upload: 4.2 % uploaded (3145728)
+0114.059 (0) Googledrive chunked upload: 5.6 % uploaded (4194304)
+0115.778 (0) Googledrive chunked upload: 7 % uploaded (5242880)
+0117.567 (0) Googledrive chunked upload: 8.4 % uploaded (6291456)
+0119.369 (0) Googledrive chunked upload: 9.8 % uploaded (7340032)
+0121.030 (0) Googledrive chunked upload: 11.1 % uploaded (8388608)
+0122.792 (0) Googledrive chunked upload: 12.5 % uploaded (9437184)
+0124.504 (0) Googledrive chunked upload: 13.9 % uploaded (10485760)
+0126.281 (0) Googledrive chunked upload: 15.3 % uploaded (11534336)
+0127.985 (0) Googledrive chunked upload: 16.7 % uploaded (12582912)
+0129.719 (0) Googledrive chunked upload: 18.1 % uploaded (13631488)
+0131.394 (0) Googledrive chunked upload: 19.5 % uploaded (14680064)
+0133.069 (0) Googledrive chunked upload: 20.9 % uploaded (15728640)
+0134.856 (0) Googledrive chunked upload: 22.3 % uploaded (16777216)
+0136.591 (0) Googledrive chunked upload: 23.7 % uploaded (17825792)
+0138.328 (0) Googledrive chunked upload: 25.1 % uploaded (18874368)
+0140.051 (0) Googledrive chunked upload: 26.5 % uploaded (19922944)
+0141.903 (0) Googledrive chunked upload: 27.9 % uploaded (20971520)
+0143.614 (0) Googledrive chunked upload: 29.3 % uploaded (22020096)
+0145.348 (0) Googledrive chunked upload: 30.6 % uploaded (23068672)
+0147.067 (0) Googledrive chunked upload: 32 % uploaded (24117248)
+0148.754 (0) Googledrive chunked upload: 33.4 % uploaded (25165824)
+0150.532 (0) Googledrive chunked upload: 34.8 % uploaded (26214400)
+0152.216 (0) Googledrive chunked upload: 36.2 % uploaded (27262976)
+0153.911 (0) Googledrive chunked upload: 37.6 % uploaded (28311552)
+0155.635 (0) Googledrive chunked upload: 39 % uploaded (29360128)
+0157.383 (0) Googledrive chunked upload: 40.4 % uploaded (30408704)
+0159.119 (0) Googledrive chunked upload: 41.8 % uploaded (31457280)
+0160.914 (0) Googledrive chunked upload: 43.2 % uploaded (32505856)
+0162.700 (0) Googledrive chunked upload: 44.6 % uploaded (33554432)
+0164.482 (0) Googledrive chunked upload: 46 % uploaded (34603008)
+0166.143 (0) Googledrive chunked upload: 47.4 % uploaded (35651584)
+0167.841 (0) Googledrive chunked upload: 48.8 % uploaded (36700160)
+0169.589 (0) Googledrive chunked upload: 50.1 % uploaded (37748736)
+0171.256 (0) Googledrive chunked upload: 51.5 % uploaded (38797312)
+0172.926 (0) Googledrive chunked upload: 52.9 % uploaded (39845888)
+0174.657 (0) Googledrive chunked upload: 54.3 % uploaded (40894464)
+0176.389 (0) Googledrive chunked upload: 55.7 % uploaded (41943040)
+0178.086 (0) Googledrive chunked upload: 57.1 % uploaded (42991616)
+0179.845 (0) Googledrive chunked upload: 58.5 % uploaded (44040192)
+0181.593 (0) Googledrive chunked upload: 59.9 % uploaded (45088768)
+0183.322 (0) Googledrive chunked upload: 61.3 % uploaded (46137344)
+0185.113 (0) Googledrive chunked upload: 62.7 % uploaded (47185920)
+0186.934 (0) Googledrive chunked upload: 64.1 % uploaded (48234496)
+0188.658 (0) Googledrive chunked upload: 65.5 % uploaded (49283072)
+0190.488 (0) Googledrive chunked upload: 66.9 % uploaded (50331648)
+0192.203 (0) Googledrive chunked upload: 68.3 % uploaded (51380224)
+0193.912 (0) Googledrive chunked upload: 69.6 % uploaded (52428800)
+0195.670 (0) Googledrive chunked upload: 71 % uploaded (53477376)
+0197.364 (0) Googledrive chunked upload: 72.4 % uploaded (54525952)
+0199.065 (0) Googledrive chunked upload: 73.8 % uploaded (55574528)
+0200.870 (0) Googledrive chunked upload: 75.2 % uploaded (56623104)
+0202.665 (0) Googledrive chunked upload: 76.6 % uploaded (57671680)
+0204.451 (0) Googledrive chunked upload: 78 % uploaded (58720256)
+0206.238 (0) Googledrive chunked upload: 79.4 % uploaded (59768832)
+0208.017 (0) Googledrive chunked upload: 80.8 % uploaded (60817408)
+0209.786 (0) Googledrive chunked upload: 82.2 % uploaded (61865984)
+0211.542 (0) Googledrive chunked upload: 83.6 % uploaded (62914560)
+0213.264 (0) Googledrive chunked upload: 85 % uploaded (63963136)
+0215.047 (0) Googledrive chunked upload: 86.4 % uploaded (65011712)
+0216.762 (0) Googledrive chunked upload: 87.8 % uploaded (66060288)
+0218.533 (0) Googledrive chunked upload: 89.1 % uploaded (67108864)
+0220.222 (0) Googledrive chunked upload: 90.5 % uploaded (68157440)
+0221.915 (0) Googledrive chunked upload: 91.9 % uploaded (69206016)
+0223.658 (0) Googledrive chunked upload: 93.3 % uploaded (70254592)
+0225.352 (0) Googledrive chunked upload: 94.7 % uploaded (71303168)
+0227.031 (0) Googledrive chunked upload: 96.1 % uploaded (72351744)
+0228.761 (0) Googledrive chunked upload: 97.5 % uploaded (73400320)
+0230.540 (0) Googledrive chunked upload: 98.9 % uploaded (74448896)
+0232.731 (0) Googledrive chunked upload: 100 % uploaded (74448896)
+0232.742 (0) OK: Archive backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip uploaded to Google Drive in 126.13 seconds
+0232.746 (0) Recording as successfully uploaded: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip
+0232.764 (0) Deleting local file: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-plugins.zip: OK
+0233.056 (0) Google Drive quota usage: used=10646.8 MB, total=30720 MB, available=20073.2 MB
+0233.059 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip: Attempting to upload to Google Drive (into folder id: 1qKmatwYlqCFDNH8VBZW_5TwE7B4IeQU4)
+0235.105 (0) Googledrive chunked upload: 19.8 % uploaded (1048576)
+0236.779 (0) Googledrive chunked upload: 39.5 % uploaded (2097152)
+0238.539 (0) Googledrive chunked upload: 59.3 % uploaded (3145728)
+0240.189 (0) Googledrive chunked upload: 79 % uploaded (4194304)
+0241.897 (0) Googledrive chunked upload: 98.8 % uploaded (5242880)
+0242.966 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0242.977 (0) OK: Archive backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip uploaded to Google Drive in 9.92 seconds
+0242.979 (0) Recording as successfully uploaded: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip
+0242.985 (0) Deleting local file: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-themes.zip: OK
+0243.332 (0) Google Drive quota usage: used=10651.8 MB, total=30720 MB, available=20068.2 MB
+0243.474 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip: Attempting to upload to Google Drive (into folder id: 1qKmatwYlqCFDNH8VBZW_5TwE7B4IeQU4)
+0245.660 (0) Googledrive chunked upload: 0.8 % uploaded (1048576)
+0247.366 (0) Googledrive chunked upload: 1.6 % uploaded (2097152)
+0248.990 (0) Googledrive chunked upload: 2.3 % uploaded (3145728)
+0250.643 (0) Googledrive chunked upload: 3.1 % uploaded (4194304)
+0252.309 (0) Googledrive chunked upload: 3.9 % uploaded (5242880)
+0253.985 (0) Googledrive chunked upload: 4.7 % uploaded (6291456)
+0255.691 (0) Googledrive chunked upload: 5.4 % uploaded (7340032)
+0257.417 (0) Googledrive chunked upload: 6.2 % uploaded (8388608)
+0259.180 (0) Googledrive chunked upload: 7 % uploaded (9437184)
+0260.822 (0) Googledrive chunked upload: 7.8 % uploaded (10485760)
+0262.558 (0) Googledrive chunked upload: 8.5 % uploaded (11534336)
+0264.395 (0) Googledrive chunked upload: 9.3 % uploaded (12582912)
+0266.033 (0) Googledrive chunked upload: 10.1 % uploaded (13631488)
+0267.741 (0) Googledrive chunked upload: 10.9 % uploaded (14680064)
+0269.409 (0) Googledrive chunked upload: 11.6 % uploaded (15728640)
+0271.092 (0) Googledrive chunked upload: 12.4 % uploaded (16777216)
+0272.766 (0) Googledrive chunked upload: 13.2 % uploaded (17825792)
+0274.446 (0) Googledrive chunked upload: 14 % uploaded (18874368)
+0276.366 (0) Googledrive chunked upload: 14.7 % uploaded (19922944)
+0278.082 (0) Googledrive chunked upload: 15.5 % uploaded (20971520)
+0279.828 (0) Googledrive chunked upload: 16.3 % uploaded (22020096)
+0281.504 (0) Googledrive chunked upload: 17.1 % uploaded (23068672)
+0283.136 (0) Googledrive chunked upload: 17.8 % uploaded (24117248)
+0284.780 (0) Googledrive chunked upload: 18.6 % uploaded (25165824)
+0286.671 (0) Googledrive chunked upload: 19.4 % uploaded (26214400)
+0288.387 (0) Googledrive chunked upload: 20.2 % uploaded (27262976)
+0290.004 (0) Googledrive chunked upload: 20.9 % uploaded (28311552)
+0291.717 (0) Googledrive chunked upload: 21.7 % uploaded (29360128)
+0293.362 (0) Googledrive chunked upload: 22.5 % uploaded (30408704)
+0295.004 (0) Googledrive chunked upload: 23.3 % uploaded (31457280)
+0296.662 (0) Googledrive chunked upload: 24 % uploaded (32505856)
+0298.287 (0) Googledrive chunked upload: 24.8 % uploaded (33554432)
+0300.015 (0) Googledrive chunked upload: 25.6 % uploaded (34603008)
+0301.686 (0) Googledrive chunked upload: 26.4 % uploaded (35651584)
+0303.814 (0) Googledrive chunked upload: 27.2 % uploaded (36700160)
+0305.562 (0) Googledrive chunked upload: 27.9 % uploaded (37748736)
+0307.379 (0) Googledrive chunked upload: 28.7 % uploaded (38797312)
+0309.220 (0) Googledrive chunked upload: 29.5 % uploaded (39845888)
+0311.110 (0) Googledrive chunked upload: 30.3 % uploaded (40894464)
+0312.878 (0) Googledrive chunked upload: 31 % uploaded (41943040)
+0314.990 (0) Googledrive chunked upload: 31.8 % uploaded (42991616)
+0316.981 (0) Googledrive chunked upload: 32.6 % uploaded (44040192)
+0318.848 (0) Googledrive chunked upload: 33.4 % uploaded (45088768)
+0320.581 (0) Googledrive chunked upload: 34.1 % uploaded (46137344)
+0322.325 (0) Googledrive chunked upload: 34.9 % uploaded (47185920)
+0324.044 (0) Googledrive chunked upload: 35.7 % uploaded (48234496)
+0325.726 (0) Googledrive chunked upload: 36.5 % uploaded (49283072)
+0327.504 (0) Googledrive chunked upload: 37.2 % uploaded (50331648)
+0329.224 (0) Googledrive chunked upload: 38 % uploaded (51380224)
+0330.956 (0) Googledrive chunked upload: 38.8 % uploaded (52428800)
+0332.635 (0) Googledrive chunked upload: 39.6 % uploaded (53477376)
+0334.379 (0) Googledrive chunked upload: 40.3 % uploaded (54525952)
+0336.057 (0) Googledrive chunked upload: 41.1 % uploaded (55574528)
+0337.782 (0) Googledrive chunked upload: 41.9 % uploaded (56623104)
+0339.572 (0) Googledrive chunked upload: 42.7 % uploaded (57671680)
+0341.297 (0) Googledrive chunked upload: 43.4 % uploaded (58720256)
+0343.049 (0) Googledrive chunked upload: 44.2 % uploaded (59768832)
+0344.773 (0) Googledrive chunked upload: 45 % uploaded (60817408)
+0346.437 (0) Googledrive chunked upload: 45.8 % uploaded (61865984)
+0348.076 (0) Googledrive chunked upload: 46.5 % uploaded (62914560)
+0349.830 (0) Googledrive chunked upload: 47.3 % uploaded (63963136)
+0351.463 (0) Googledrive chunked upload: 48.1 % uploaded (65011712)
+0353.174 (0) Googledrive chunked upload: 48.9 % uploaded (66060288)
+0354.881 (0) Googledrive chunked upload: 49.6 % uploaded (67108864)
+0356.600 (0) Googledrive chunked upload: 50.4 % uploaded (68157440)
+0358.231 (0) Googledrive chunked upload: 51.2 % uploaded (69206016)
+0359.955 (0) Googledrive chunked upload: 52 % uploaded (70254592)
+0361.727 (0) Googledrive chunked upload: 52.7 % uploaded (71303168)
+0363.564 (0) Googledrive chunked upload: 53.5 % uploaded (72351744)
+0365.415 (0) Googledrive chunked upload: 54.3 % uploaded (73400320)
+0367.046 (0) Googledrive chunked upload: 55.1 % uploaded (74448896)
+0368.774 (0) Googledrive chunked upload: 55.9 % uploaded (75497472)
+0370.458 (0) Googledrive chunked upload: 56.6 % uploaded (76546048)
+0372.108 (0) Googledrive chunked upload: 57.4 % uploaded (77594624)
+0373.784 (0) Googledrive chunked upload: 58.2 % uploaded (78643200)
+0375.627 (0) Googledrive chunked upload: 59 % uploaded (79691776)
+0377.266 (0) Googledrive chunked upload: 59.7 % uploaded (80740352)
+0378.895 (0) Googledrive chunked upload: 60.5 % uploaded (81788928)
+0380.624 (0) Googledrive chunked upload: 61.3 % uploaded (82837504)
+0382.262 (0) Googledrive chunked upload: 62.1 % uploaded (83886080)
+0383.932 (0) Googledrive chunked upload: 62.8 % uploaded (84934656)
+0385.628 (0) Googledrive chunked upload: 63.6 % uploaded (85983232)
+0387.313 (0) Googledrive chunked upload: 64.4 % uploaded (87031808)
+0388.964 (0) Googledrive chunked upload: 65.2 % uploaded (88080384)
+0390.734 (0) Googledrive chunked upload: 65.9 % uploaded (89128960)
+0392.380 (0) Googledrive chunked upload: 66.7 % uploaded (90177536)
+0394.066 (0) Googledrive chunked upload: 67.5 % uploaded (91226112)
+0395.742 (0) Googledrive chunked upload: 68.3 % uploaded (92274688)
+0397.523 (0) Googledrive chunked upload: 69 % uploaded (93323264)
+0399.518 (0) Googledrive chunked upload: 69.8 % uploaded (94371840)
+0401.265 (0) Googledrive chunked upload: 70.6 % uploaded (95420416)
+0402.923 (0) Googledrive chunked upload: 71.4 % uploaded (96468992)
+0404.643 (0) Googledrive chunked upload: 72.1 % uploaded (97517568)
+0406.396 (0) Googledrive chunked upload: 72.9 % uploaded (98566144)
+0408.189 (0) Googledrive chunked upload: 73.7 % uploaded (99614720)
+0409.964 (0) Googledrive chunked upload: 74.5 % uploaded (100663296)
+0411.721 (0) Googledrive chunked upload: 75.2 % uploaded (101711872)
+0413.423 (0) Googledrive chunked upload: 76 % uploaded (102760448)
+0415.129 (0) Googledrive chunked upload: 76.8 % uploaded (103809024)
+0416.766 (0) Googledrive chunked upload: 77.6 % uploaded (104857600)
+0418.470 (0) Googledrive chunked upload: 78.3 % uploaded (105906176)
+0420.141 (0) Googledrive chunked upload: 79.1 % uploaded (106954752)
+0422.549 (0) Googledrive chunked upload: 79.9 % uploaded (108003328)
+0424.315 (0) Googledrive chunked upload: 80.7 % uploaded (109051904)
+0425.961 (0) Googledrive chunked upload: 81.5 % uploaded (110100480)
+0427.813 (0) Googledrive chunked upload: 82.2 % uploaded (111149056)
+0430.065 (0) Googledrive chunked upload: 83 % uploaded (112197632)
+0432.042 (0) Googledrive chunked upload: 83.8 % uploaded (113246208)
+0434.126 (0) Googledrive chunked upload: 84.6 % uploaded (114294784)
+0436.596 (0) Googledrive chunked upload: 85.3 % uploaded (115343360)
+0439.952 (0) Googledrive chunked upload: 86.1 % uploaded (116391936)
+0442.189 (0) Googledrive chunked upload: 86.9 % uploaded (117440512)
+0444.025 (0) Googledrive chunked upload: 87.7 % uploaded (118489088)
+0445.784 (0) Googledrive chunked upload: 88.4 % uploaded (119537664)
+0447.466 (0) Googledrive chunked upload: 89.2 % uploaded (120586240)
+0449.120 (0) Googledrive chunked upload: 90 % uploaded (121634816)
+0450.841 (0) Googledrive chunked upload: 90.8 % uploaded (122683392)
+0452.503 (0) Googledrive chunked upload: 91.5 % uploaded (123731968)
+0454.129 (0) Googledrive chunked upload: 92.3 % uploaded (124780544)
+0455.860 (0) Googledrive chunked upload: 93.1 % uploaded (125829120)
+0457.473 (0) Googledrive chunked upload: 93.9 % uploaded (126877696)
+0459.121 (0) Googledrive chunked upload: 94.6 % uploaded (127926272)
+0460.901 (0) Googledrive chunked upload: 95.4 % uploaded (128974848)
+0462.660 (0) Googledrive chunked upload: 96.2 % uploaded (130023424)
+0464.368 (0) Googledrive chunked upload: 97 % uploaded (131072000)
+0466.832 (0) Googledrive chunked upload: 97.7 % uploaded (132120576)
+0473.815 (0) Googledrive chunked upload: 98.5 % uploaded (133169152)
+0476.413 (0) Googledrive chunked upload: 99.3 % uploaded (134217728)
+0479.570 (0) Googledrive chunked upload: 100 % uploaded (134217728)
+0479.585 (0) OK: Archive backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip uploaded to Google Drive in 236.06 seconds
+0479.589 (0) Recording as successfully uploaded: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip
+0479.623 (0) Deleting local file: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-uploads.zip: OK
+0479.975 (0) Google Drive quota usage: used=10780.7 MB, total=30720 MB, available=19939.3 MB
+0479.991 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-others.zip: Attempting to upload to Google Drive (into folder id: 1qKmatwYlqCFDNH8VBZW_5TwE7B4IeQU4)
+0481.501 (0) Googledrive chunked upload: 100 % uploaded
+0481.519 (0) OK: Archive backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-others.zip uploaded to Google Drive in 1.52 seconds
+0481.525 (0) Recording as successfully uploaded: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-others.zip
+0481.537 (0) Deleting local file: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-others.zip: OK
+0481.858 (0) Google Drive quota usage: used=10780.7 MB, total=30720 MB, available=19939.3 MB
+0481.860 (0) backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz: Attempting to upload to Google Drive (into folder id: 1qKmatwYlqCFDNH8VBZW_5TwE7B4IeQU4)
+0484.890 (0) Googledrive chunked upload: 56.3 % uploaded (1048576)
+0487.136 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0487.146 (0) OK: Archive backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz uploaded to Google Drive in 5.28 seconds
+0487.148 (0) Recording as successfully uploaded: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz
+0487.158 (0) Deleting local file: backup_2018-10-06-2349_AgapeBibleChurchDetroitcom_c4b2f76f1b27-db.gz: OK
+0487.183 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0487.187 (0) Number of backup sets in history: 3; groups (db): 1
+0487.190 (0) Examining (for databases) backup set with group_id=0, nonce=c4b2f76f1b27, datestamp=1538869752 (Oct 06 2018 23:49:12)
+0487.192 (0) This backup set is the backup set just made, so will not be deleted.
+0487.193 (0) Examining (for databases) backup set with group_id=0, nonce=b429ec4f4f79, datestamp=1538865844 (Oct 06 2018 22:44:04)
+0487.193 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0487.195 (0) Examining (for databases) backup set with group_id=0, nonce=717798ba9e85, datestamp=1536412351 (Sep 08 2018 13:12:31)
+0487.195 (0) 1536412351: db: this set includes a database (backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-db.gz); db count is now 2
+0487.195 (0) 1536412351: db: over retain limit (2); will delete this database
+0487.195 (0) Delete file: backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-db.gz, service=googledrive
+0488.207 (0) backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-db.gz: Deletion successful
+0488.213 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0488.238 (0) Number of backup sets in history: 3; groups (files): 1
+0488.240 (0) Examining (for files) backup set with nonce=c4b2f76f1b27, datestamp=1538869752 (Oct 06 2018 23:49:12)
+0488.241 (0) This backup set is the backup set just made, so will not be deleted.
+0488.243 (0) This backup set is the backup set just made, so will not be deleted.
+0488.243 (0) This backup set is the backup set just made, so will not be deleted.
+0488.243 (0) This backup set is the backup set just made, so will not be deleted.
+0488.243 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0488.247 (0) Examining (for files) backup set with nonce=b429ec4f4f79, datestamp=1538865844 (Oct 06 2018 22:44:04)
+0488.247 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0488.248 (0) Examining (for files) backup set with nonce=717798ba9e85, datestamp=1536412351 (Sep 08 2018 13:12:31)
+0488.248 (0) plugins: over retain limit (2); will delete this file entity
+0488.248 (0) themes: over retain limit (2); will delete this file entity
+0488.248 (0) uploads: over retain limit (2); will delete this file entity
+0488.248 (0) others: over retain limit (2); will delete this file entity
+0488.248 (0) Delete file: backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-plugins.zip, service=googledrive
+0488.251 (0) Delete file: backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-themes.zip, service=googledrive
+0488.253 (0) Delete file: backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-uploads.zip, service=googledrive
+0488.256 (0) Delete file: backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-others.zip, service=googledrive
+0489.467 (0) backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-others.zip: Deletion successful
+0490.097 (0) backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-uploads.zip: Deletion successful
+0490.870 (0) backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-themes.zip: Deletion successful
+0491.339 (0) backup_2018-09-08-1312_AgapeBibleChurchDetroitcom_717798ba9e85-plugins.zip: Deletion successful
+0491.409 (0) This backup set is now empty; will remove from history
+0491.412 (0) Deleting log file (log.717798ba9e85.txt)
+0491.415 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0491.425 (0) Resume backup (c4b2f76f1b27, 0): finish run
+0491.432 (0) Decremented the semaphore (fd) by 1
+0491.438 (0) Semaphore (fd) unlocked
+0491.444 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0491.456 (0) No email will/can be sent - the user has not configured an email address.
+0491.462 (0) The backup apparently succeeded and is now complete

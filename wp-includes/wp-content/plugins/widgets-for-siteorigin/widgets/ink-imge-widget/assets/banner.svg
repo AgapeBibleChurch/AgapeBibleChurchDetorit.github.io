@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),rotate(90.000000),scale(1.000000,0.991386),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F031B" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Widget-Icons" transform="translate(-335.000000, -1447.000000)">
+            <g id="Image" transform="translate(335.000000, 1447.000000)">
+                <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="240" height="240"></rect>
+                <path d="M107.813335,26.5137311 C114.455584,23.0943863 125.546156,23.095282 132.186665,26.5137311 L205.524833,64.2672818 C212.054511,67.6286766 217.5,76.5587553 217.5,83.9055336 L217.5,156.866109 C217.5,164.210816 212.050814,173.14487 205.524833,176.504361 L132.186665,214.257912 C125.544416,217.677257 114.453844,217.676361 107.813335,214.257912 L34.4751675,176.504361 C27.9454892,173.142966 22.5,164.212888 22.5,156.866109 L22.5,83.9055336 C22.5,76.5608267 27.949186,67.6267735 34.4751675,64.2672818 L107.813335,26.5137311 Z" id="Polygon" stroke="#FFFFFF" stroke-width="5"></path>
+                <g id="Group" transform="translate(77.000000, 77.000000)" stroke="#F7EBE8" stroke-width="4">
+                    <rect id="Rectangle-Copy-13" x="2" y="2" width="83" height="83"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

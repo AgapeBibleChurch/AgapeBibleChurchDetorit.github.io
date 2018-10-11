@@ -1,0 +1,53 @@
+#tm_builder_outer_content {
+	.tm_pb_swiper {
+		.post-thumbnail + .entry-content .post__cats {
+			top: 0;
+			left: 10px;
+		}
+		.post-meta {
+			@include font-size(0.75);
+			text-transform: uppercase;
+			display: inline-block;
+			&.posted-by {
+				margin-top: 10px;
+			}
+			&.post-comments {
+				margin-left: 5px;
+			}
+		}
+
+		.entry-footer {
+			margin: 0;
+			justify-content: flex-end;
+			.btn {
+				margin: 15px 0;
+				@include font-size(0.75);
+				text-transform: uppercase;
+			}
+		}
+
+		.swiper-button-next, .swiper-button-prev {
+			background: none;
+			top: 90%;
+			&::before {
+				@include font-size(3);
+				font-family: FontAwesome;
+				@include transition(.3s ease all);
+			}
+		}
+		.swiper-button-prev::before {
+			content: '\f104';
+		}
+		.swiper-button-next::before {
+			content: '\f105';
+		}
+
+		.swiper-pagination {
+			margin: 0 0 30px;
+			position: relative;
+			@include media-breakpoint-up(md) {
+				margin: 30px 0;
+			}
+		}
+	}
+}
