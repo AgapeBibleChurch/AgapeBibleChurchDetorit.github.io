@@ -1,0 +1,16 @@
+.so-widget-lsow-hero-image-default-21e16a23de94 .lsow-hero-header {
+  padding-top: 600px;
+  padding-bottom: 400px;
+}
+@media screen and (max-width: 800px) {
+  .so-widget-lsow-hero-image-default-21e16a23de94 .lsow-hero-header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .so-widget-lsow-hero-image-default-21e16a23de94 .lsow-hero-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
