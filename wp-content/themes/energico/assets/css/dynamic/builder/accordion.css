@@ -1,0 +1,7 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_accordion .tm_pb_toggle .tm_pb_toggle_title{
+	color: $regular_h5_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_accordion .tm_pb_toggle .tm_pb_toggle_title::before{
+	color: $regular_link_color;
+}

@@ -1,0 +1,22 @@
+#tm_builder_outer_content .tm_pb_tabs.tm_pb_module .tm_pb_tabs_controls li{
+	background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_tabs_controls li.tm_pb_tab_active a{
+	color:  $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_tabs_controls li a {
+	color: $invert_text_color;
+	font-size: $h5_font_size{px};
+	font-family: @font_family( $h5_font_family );
+}
+
+#tm_builder_outer_content .tm_pb_all_tabs,
+#tm_builder_outer_content .tm_pb_tabs.tm_pb_module .tm_pb_tabs_controls li.tm_pb_tab_active{
+	background: $regular_accent_color_3;
+}
+
+#tm_builder_outer_content .tm_pb_tabs_controls li:hover a {
+	color:  $regular_accent_color_2;
+}

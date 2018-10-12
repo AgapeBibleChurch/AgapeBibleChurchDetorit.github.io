@@ -1,0 +1,113 @@
+#tm_builder_outer_content {
+	.tm_pb_column:not(.tm_pb_column_4_4) {
+		.tm_pb_countdown_timer.tm_pb_module {
+			.section {
+				> span:first-child {
+					@include font-size(1.3);
+					@include media-breakpoint-up(lg) {
+						@include font-size(2);
+					}
+				}
+				&.sep {
+					@include media-breakpoint-down(md) {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.tm_pb_column_4_4 {
+		.tm_pb_countdown_timer + .tm_pb_countdown_timer {
+			margin-top: 30px;
+			margin-bottom: 35px;
+		}
+		.tm_pb_countdown_timer.tm_pb_module {
+			padding: 3% 0 7%;
+			.tm_pb_countdown_timer_container {
+				h4 {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+	.tm_pb_countdown_timer.tm_pb_module:not(.tm_pb_countdown_timer_circle_layout) {
+		.section.values {
+			width: 17.5%;
+
+			.value {
+				@include font-size(6.25);
+			}
+
+			&.sep {
+				@include font-size(6.25);
+				margin: 0 20px;
+			}
+
+			.label {
+				position: absolute;
+				bottom: -20px;
+				right: -10px;
+				left: -10px;
+				@include media-breakpoint-up(lg) {
+					bottom: -70%;
+				}
+			}
+		}
+	}
+
+	.tm_pb_countdown_timer_circle_layout.tm_pb_module.tm_pb_countdown_timer .tm_pb_countdown_timer_container {
+		.section {
+			margin-bottom: 5px;
+			&.sep {
+				@include font-size(3);
+				margin: 0 8px;
+				display: none;
+				@include media-breakpoint-up(lg) {
+					display: inline-block;
+				}
+			}
+			.label {
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.tm_pb_countdown_timer.tm_pb_module {
+		padding: 3% 0 17%;
+		.tm_pb_countdown_timer_container {
+			h4 {
+				margin-bottom: 20px;
+			}
+			.section {
+				position: relative;
+				&.values {
+					padding: 0 5px;
+					.value {
+						font-weight: 700;
+						@include font-size(1.3);
+						@include media-breakpoint-up(sm) {
+							@include font-size(2);
+						}
+						@include media-breakpoint-up(lg) {
+							@include font-size(3.5);
+						}
+					}
+				}
+				&.sep {
+					font-weight: 700;
+					margin: 0 5px;
+					top: 0;
+					@include font-size(1.3);
+					@include media-breakpoint-up(sm) {
+						@include font-size(2);
+					}
+					@include media-breakpoint-up(lg) {
+						@include font-size(3.5);
+					}
+				}
+			}
+		}
+	}
+}

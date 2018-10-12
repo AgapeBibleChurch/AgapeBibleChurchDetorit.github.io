@@ -1,0 +1,19 @@
+#tm_builder_outer_content .tm_pb_button_module_wrapper .tm_pb_button.tm_pb_module{
+	color: $regular_accent_color_2;
+	font-family: $h1_font_family;
+}
+
+
+#tm_builder_outer_content .tm_pb_button_module_wrapper .tm_pb_button.tm_pb_module:hover{
+	color: $invert_accent_color_1;
+	border-color:  $regular_accent_color_1;
+	background:  $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_custom_button_icon.tm_pb_button:after{
+	color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_custom_button_icon.tm_pb_button:hover:after{
+	color: $invert_accent_color_1;
+}

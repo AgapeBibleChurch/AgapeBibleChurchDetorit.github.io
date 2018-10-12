@@ -1,0 +1,39 @@
+.widget {
+	&-title {
+		@include font-size(1.25);
+		line-height: 1.2;
+		margin: 0 0 1.2em 0;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	& + .widget {
+		margin-top: 1em;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 2em;
+		}
+	}
+	.sidebar &,
+	.footer-area & {
+		margin-top: 1.5em;
+		&:first-child {
+			margin-top: 3em;
+		}
+
+		@include media-breakpoint-up(md) {
+			margin-top: 3em;
+		}
+	}
+	&:last-child {
+		.widget-area & {
+			margin-bottom: 1em;
+
+			@include media-breakpoint-up(md) {
+				margin-bottom: 2em;
+			}
+		}
+	}
+	select {
+		max-width: 100%;
+	}
+}

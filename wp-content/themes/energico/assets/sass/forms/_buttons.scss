@@ -1,0 +1,24 @@
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	@include btn;
+}
+
+// General styles
+.btn {
+	text-decoration: none;
+
+	@include btn;
+	@include border-radius;
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		outline: none;
+		box-shadow: 0 0 10px;
+	}
+	&-fullwidth {
+		width: 100%;
+	}
+}

@@ -1,0 +1,33 @@
+.site-header.minimal {
+	.header-container {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		.site-branding{
+			margin-bottom: 20px;
+		}
+	}
+
+	.menu {
+		justify-content: center;
+		@include media-breakpoint-up(lg) {
+			justify-content: flex-end;
+		}
+	}
+}
+
+.header-container {
+	&__flex {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		@include media-breakpoint-up(lg) {
+			flex-wrap: nowrap;
+			justify-content: space-between;
+		}
+
+		.site-branding {
+			flex-shrink: 0;
+		}
+	}
+}

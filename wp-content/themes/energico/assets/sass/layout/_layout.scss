@@ -1,0 +1,18 @@
+.container {
+	&.site-header,
+	&.site-footer {
+		@include reset-container();
+	}
+	&.site-content {
+		.container {
+			@include reset-container();
+		}
+	}
+}
+
+.site-content{
+	margin-top: 10px;
+	.home &{
+		margin-top: 0;
+	}
+}

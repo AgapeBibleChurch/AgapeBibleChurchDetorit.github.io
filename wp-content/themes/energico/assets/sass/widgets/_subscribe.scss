@@ -1,0 +1,127 @@
+.widget-subscribe {
+	.widget-title {
+		.sidebar & {
+			padding: 0;
+			@include media-breakpoint-up(sm) {
+				padding: 0 30px;
+			}
+
+			.sidebar-1-4 & {
+				@include media-breakpoint-only(md) {
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+
+.follow-block {
+	.sidebar & {
+		text-align: center;
+		padding: 40px 40px 45px;
+		@include media-breakpoint-only(md) {
+			padding: 40px 10px;
+		}
+	}
+
+	.sidebar-1-4 .sidebar & {
+		padding: 20px 20px 25px;
+		@include media-breakpoint-only(md) {
+			padding: 15px;
+		}
+	}
+	.footer-area & {
+		text-align: left;
+	}
+	.social-list__items {
+		margin-top: 37px;
+		li a::before {
+			@include font-size(1.375);
+			@include transition(.3s ease all);
+		}
+		li + li {
+			margin-left: 15px;
+			.sidebar-1-4 & {
+				@include media-breakpoint-only(md) {
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}
+
+.subscribe-block {
+	.sidebar & {
+		text-align: center;
+		padding: 33px 40px 40px 40px;
+		@include media-breakpoint-only(md) {
+			padding: 40px 10px;
+		}
+	}
+
+	.subscribe-block__error {
+		@include font-size(0.75);
+		margin-top: 5px;
+		color: red;
+	}
+
+	.sidebar-1-4 .sidebar & {
+		padding: 20px 20px 25px;
+		@include media-breakpoint-only(md) {
+			padding: 15px;
+		}
+	}
+
+	.footer-area & {
+		text-align: left;
+	}
+
+	&__input-group {
+		position: relative;
+		.sidebar & {
+			margin: 8px 20px 10px;
+			.sidebar-1-4 & {
+				@include media-breakpoint-only(md) {
+					margin: 0;
+				}
+			}
+		}
+	}
+	&__input[type='email'] {
+		width: 100%;
+		max-width: 100%;
+		border-radius: 30px;
+		border: 2px solid transparent;
+		padding: 5px 30px 5px 20px;
+		@include font-size(0.75);
+		&:focus {
+			box-shadow: none;
+		}
+		&.error {
+			border-color: $color__not-valid;
+		}
+	}
+	&__submit {
+		font-size: 0;
+		padding: 0;
+		position: absolute;
+		top: 50%;
+		right: 15px;
+		@include translate(0, -50%);
+		&:before {
+			content: "\f1d8";
+			font-family: FontAwesome;
+			@include font-size(0.8125);
+		}
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	&__message {
+		padding: 0 0 15px;
+
+		.footer-area & {
+			padding-bottom: 20px;
+		}
+	}
+}

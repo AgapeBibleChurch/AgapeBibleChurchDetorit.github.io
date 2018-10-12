@@ -1,0 +1,93 @@
+/* #Main Menu */
+.main-navigation .menu > li > a {
+	color: $regular_accent_color_2;
+}
+
+.main-navigation .menu > li > a::before{
+	background: $regular_accent_color_1;
+}
+
+.main-navigation a{
+	font-family:$h1_font_family;
+}
+
+.main-navigation .menu > li > a:hover,
+.main-navigation .menu > li.menu-hover > a,
+.main-navigation .menu > li.current_page_item > a,
+.main-navigation .menu > li.current_page_ancestor > a,
+.main-navigation .menu > li.current-menu-item > a,
+.main-navigation .menu > li.current-menu-ancestor > a {
+	color: $regular_accent_color_1;
+}
+.main-navigation .sub-menu {
+	background: $regular_accent_color_1;
+}
+.main-navigation ul ul a {
+	color: $invert_text_color;
+}
+.main-navigation .sub-menu > li > a:hover,
+.main-navigation .sub-menu > li.menu-hover > a,
+.main-navigation .sub-menu > li.current_page_item > a,
+.main-navigation .sub-menu > li.current_page_ancestor > a,
+.main-navigation .sub-menu > li.current-menu-item > a,
+.main-navigation .sub-menu > li.current-menu-ancestor > a {
+	background: $regular_accent_color_2;
+}
+.menu-item__desc {
+	color: $regular_text_color;
+}
+
+/* #Inverted Main Menu */
+.invert .main-navigation .menu > li > a,
+.invert .main-navigation .menu > li::after {
+	color: $invert_accent_color_1;
+}
+
+.invert .main-navigation .sub-menu > li > a:hover,
+.invert .main-navigation .sub-menu > li::after,
+.invert .main-navigation .sub-menu > li.menu-hover > a,
+.invert .main-navigation .sub-menu > li.current_page_item > a,
+.invert .main-navigation .sub-menu > li.current_page_ancestor > a,
+.invert .main-navigation .sub-menu > li.current-menu-item > a,
+.invert .main-navigation .sub-menu > li.current-menu-ancestor > a {
+	color: $regular_accent_color_1;
+}
+
+/* #Footer Menu */
+.footer-menu__items li.current-menu-item a,
+.footer-menu__items li.current_page_item a {
+	color: $regular_text_color;
+}
+
+.menu-toggle[aria-controls="main-menu"] .menu-toggle__icon{
+	color: $regular_accent_color_1;
+}
+
+.main-navigation.mobile-menu.show{
+	background: $regular_accent_color_1;
+}
+
+.main-navigation.mobile-menu.show a,
+body a.sub-menu-toggle,
+.menu-toggle[aria-controls="main-menu"].toggled .menu-toggle__icon[data-alt]{
+	color: $invert_link_color;
+}
+
+.main-navigation.mobile-menu > .menu > li > a,
+.main-navigation.mobile-menu > .menu > li.menu-hover > a{
+	color: $invert_link_color;
+}
+
+.main-navigation.mobile-menu > .menu li.sub-menu-open{
+	background:@darken( $regular_accent_color_1, 20% );
+}
+
+.main-navigation.mobile-menu > .menu li.sub-menu-open > .sub-menu li.sub-menu-open {
+	background: $regular_accent_color_1;
+}
+
+@media (max-width: 768px){
+	.menu > li > a > .menu-item__desc {
+		color: $invert_text_color;
+	}
+}

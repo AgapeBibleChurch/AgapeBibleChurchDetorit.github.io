@@ -1,0 +1,151 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+blockquote, q {
+	quotes: none;
+
+	&:before,
+	&:after {
+		fntent: '';
+	}
+}
+
+blockquote {
+	position: relative;
+	margin: 0 0 1em;
+	padding: 20px 10px 10px;
+	@include font-size(1.625);
+	@include media-breakpoint-up(sm) {
+		padding: 0.7em 1em 0.7em 4.7em;
+	}
+
+	.posts-list & {
+		padding: 50px 30px 30px;
+		@include media-breakpoint-up(sm) {
+			padding: 2.3em 2em 1.2em 3.7em;
+		}
+	}
+
+	body .posts-list .entry-content &::before {
+		@include media-breakpoint-down(lg) {
+			top: 18px;
+		}
+	}
+
+	.single & {
+		@include media-breakpoint-down(xs) {
+			padding: 20px 10px 10px;
+		}
+	}
+
+	@include media-breakpoint-between(md, lg) {
+		.posts-list & {
+			padding: 50px 30px 30px;
+		}
+	}
+	p {
+		margin: 0;
+		& + p {
+			margin-top: 1em;
+		}
+	}
+	cite {
+		&:before {
+			content: "- ";
+		}
+	}
+	&:before {
+		body #tm_builder_outer_content & {
+			content: "\f10e";
+			top: -10px;
+			left: 50%;
+			@include translate(-50%, 0);
+			@include media-breakpoint-up(sm) {
+				top: 28px;
+				left: 30px;
+				@include translate(0, 0);
+			}
+			@include media-breakpoint-up(lg) {
+				top: 22px;
+				left: 81px;
+			}
+		}
+		content: "\f10e";
+		font-family: FontAwesome;
+		position: absolute;
+		top: 35px;
+		left: 55px;
+		line-height: 1.4;
+		.posts-list .entry-content & {
+			top: 48px;
+			left: 45px;
+		}
+		.single & {
+			@include media-breakpoint-down(md) {
+				left: 30px;
+				top: 30px;
+			}
+			@include media-breakpoint-down(xs) {
+				left: 50%;
+				@include translate(-50%, 0);
+				top: -5px;
+			}
+		}
+		.posts-list & {
+			@include media-breakpoint-between(md, lg) {
+				top: 20px;
+				left: 50%;
+				@include translate(-50%, 0);
+			}
+			@include media-breakpoint-down(xs) {
+				top: 20px;
+				left: 50%;
+				@include translate(-50%, 0);
+			}
+		}
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin: 1.5em 0;
+	&.clear {
+		clear: both;
+		background: transparent;
+		margin: 1.7em 0;
+	}
+}
+
+/*--------------------------------------------------------------
+## Lists
+--------------------------------------------------------------*/
+@import "lists";
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+@import "tables";
+
+/*--------------------------------------------------------------
+## Preloader
+--------------------------------------------------------------*/
+@import "page-preloader";
+
+/*--------------------------------------------------------------
+## ToTop button
+--------------------------------------------------------------*/
+@import "totop-button";

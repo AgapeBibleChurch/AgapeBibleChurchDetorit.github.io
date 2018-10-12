@@ -1,0 +1,65 @@
+.site-header.transparent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+
+	.site-branding {
+		padding: 0 0 15px;
+
+		order: 1;
+		flex: 0 1 100%;
+		text-align: center;
+		@include media-breakpoint-up(md) {
+			order: 0;
+			flex: 0 1 auto;
+			text-align: left;
+		}
+	}
+	.main-navigation {
+		order: 2;
+		flex: 0 1 100%;
+		align-self: flex-end;
+		@include media-breakpoint-up(md) {
+			order: 1;
+			flex: 0 1 50%;
+		}
+		@include media-breakpoint-only(md) {
+			order: 3;
+			flex: 0 1 100%;
+		}
+	}
+
+	.header-container {
+
+		&__flex {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+			align-content: stretch;
+			-ms-flex-align: start;
+			align-items: flex-start;
+			@include media-breakpoint-up(lg) {
+				flex-wrap: nowrap;
+			}
+		}
+	}
+}
+.header-layout-transparent {
+	position: relative;
+
+	&.top-panel-invisible {
+
+		.hentry:first-child,
+		.sidebar .widget:first-child {
+			margin-top: 0;
+		}
+
+		.card-columns {
+			padding-top: 0;
+		}
+	}
+}
