@@ -1,7 +1,0 @@
-.single .single-navigation, .single .fusion-meta-info, .single .fusion-sharing-box, .single .about-author {
-    display: none;
-}
-
-.sm-filtering .avada-select-parent select {
-    min-width: auto;
-}
