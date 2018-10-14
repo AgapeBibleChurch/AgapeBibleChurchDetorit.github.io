@@ -24,12 +24,9 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'energico' ); ?></a>
 	<header id="masthead" <?php energico_header_class(); ?> role="banner">
-		<?php energico_ads_header(); ?>
-		<?php get_template_part( 'template-parts/header/top-panel' ); ?>
-		<div <?php energico_header_container_class(); ?>>
-			<div <?php echo energico_get_container_classes( array( 'header-container_wrap' ), 'header' ); ?>>
-				<?php get_template_part( 'template-parts/header/layout', get_theme_mod( 'header_layout_type' ) ); ?>
-			</div>
+	<!--Header builder BEGIN-->
+<?php do_action('stm_hb', array('header' => 'agape-bible-church-header')); ?>
+<!--Header builder END-->
 		</div><!-- .header-container -->
 	</header><!-- #masthead -->
 
